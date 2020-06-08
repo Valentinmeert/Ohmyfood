@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 613px;
+    height: 973px;
+    font-family: "Montserrat", Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+header {
+    height: 100px;
+    background-color: #00897B;
+    color: #FFC400;
+    font-size: 35px;
+    line-height: 89px;
+    text-align: center;
+    font-weight: 700;
+}
+h1{
+    text-align: center;
+}
+img {
+    width: 50px;
+    height: 50px;
+}
+
+ul {
+    margin: 0 50px;
+    padding: 0;
+    list-style-type: none;
+    background-color: #FFF5FE;
+}
+
+li  {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    /* background-color: #F9F9F9; */
+    height: 800px;
+    padding: 20px;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    height: 56px;
+    background-color: #00897B;
+    color: #FFC400;
+    font-size: 20px;
+    line-height: 63px;
+    text-align: center;
+}
+
+.price{
+    margin-left:auto;
+}
+
+.note , .title {
+    margin:0 auto;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    margin:0;
+}
+hr.first::after {
+    background: #FFF5FE;
+    content: 'Pour de mettre en appétit';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+hr.second::after {
+    background: #FFF5FE;
+    content: 'Plaisir des papilles';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+hr.third::after {
+    background: #FFF5FE;
+    content: 'Gourmandises sucrées';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}

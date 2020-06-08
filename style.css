@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 613px;
+  height: 973px;
+  font-family: "Montserrat", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+header {
+  height: 100px;
+  background-color: #559c84;
+  color: #FFC400;
+  font-size: 35px;
+  line-height: 89px;
+  text-align: center;
+  font-weight: 700;
+}
+
+li {
+  text-align: center;
+}
+
+img {
+  padding-top: 86px;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #F9F9F9;
+  height: 800px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.Card {
+  height: 310px;
+  width: 220px;
+  margin: 20px;
+  box-shadow: 0 0 17px -10px #735F5D;
+  transition: transform 400ms;
+}
+.Card:hover {
+  transform: scale(1.15);
+}
+
+.first {
+  background-color: #fbdcdb;
+  font-family: 'Ma Shan Zheng', cursive;
+}
+
+
+.second {
+  background-color: #fbf3fb;
+  font-family: 'Playfair Display', serif;
+}
+
+.third {
+  background-color: #fbfbfb;
+  font-family: 'Dancing Script', cursive;
+}
+
+.fourth {
+  background-color: white;
+  font-family: 'Kaushan Script', cursive;
+}
+
+section {
+  background-color: #559c84;
+  align-self: flex-end;
+  margin: 11px auto;
+  padding: 5px 40px;
+  border-radius: 10px;
+  font-size: 31px;
+  color: #cfba55;
+}
+
+.secondTitle {
+  padding-top: 137px;
+}
+
+.thirdTitle {
+  padding-top: 137px;
+}
+
+.fourthTitle {
+  padding-top: 137px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  height: 56px;
+  background-color: #559c84;
+  color: #cfba55;
+  font-size: 20px;
+  line-height: 63px;
+  text-align: center;
+}
+
+div#main>a {
+  text-decoration: none;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
