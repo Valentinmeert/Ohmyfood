@@ -1,12 +1,12 @@
 body {
-  margin: 0;
+  margin: auto;
   padding: 0;
   width: 613px;
   height: 973px;
   font-family: "Montserrat", Arial, sans-serif;
   display: flex;
   flex-direction: column;
-  padding: 0;
+
 }
 
 header {
