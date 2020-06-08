@@ -5,14 +5,14 @@
 }
 
 body {
-    margin: auto;
+    margin: 0;
     padding: 0;
     width: 613px;
     height: 973px;
     font-family: "Montserrat", Arial, sans-serif;
     display: flex;
     flex-direction: column;
-
+    padding: 0;
 }
 
 header {
@@ -84,6 +84,10 @@ footer {
     font-size: 25px;
 }
 
+li 
+{
+    margin-bottom: 10px ;
+}
 .firstTitle , .secondTitle , .thirdTitle
 {
     font-size: 15px;

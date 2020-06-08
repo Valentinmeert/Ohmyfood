@@ -1,7 +1,8 @@
 :root {
-    --first-margin: 63px;
-    --second-margin: 44px;
-    --third-margin: 33px;
+    --first-margin: 2px;
+    --second-padding: 21px;
+    --third-padding: 9px;
+    --size-mark:179px;
 }
 
 body {
@@ -9,7 +10,7 @@ body {
     padding: 0;
     width: 613px;
     height: 973px;
-    font-family: "Montserrat", Arial, sans-serif;
+    font-family: 'Playfair Display', serif;
     display: flex;
     flex-direction: column;
 
@@ -42,7 +43,7 @@ li  {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 0;
+    padding: 0 51px;
     margin-bottom: 10px ;
 }
 
@@ -51,12 +52,10 @@ li  {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
-    height: 800px;
-    padding:35px 51px 0px 51px;
-    font-size: 14px;
+    height: 900px;
+    font-size: 13px;
     background-color: #FFF5FE;
-    margin:0px 50px 13px 50px;
+    margin:35px 50px 13px 50px;
 }
 
 footer {
@@ -76,73 +75,75 @@ footer {
     font-weight: bold;
 }
 
-.note , .title {
-    font-size: 25px;
-}
-
 .firstTitle , .secondTitle , .thirdTitle
 {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
+    padding:0;
 }
 
-.title {
-    margin-bottom: 16px;
+ul.title.Section>li{
+    padding: 79px 144px;
+    font-size: 25px;
+    text-align: center;
 }
 
 .first {
     margin-bottom: 39px;
+    color:#c67412;
 }
 
 .second{
     margin-bottom: 36px;
+    color:#a56799;
 }
 
 .third{
     margin-bottom: 25px;
+    color: #6e4ccc;
 }
 
 li.firstTitle>img.img-d
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
-    margin-left: var(--first-margin);
+    margin-right: var(--first-margin);
     transform: rotate(0.5turn);
 }
 li.firstTitle>img.img-g
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
     margin-right: var(--first-margin);
 }
 
 li.secondTitle>img.img-d
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
-    margin-left: var(--second-margin);
+    padding-right: var(--second-padding);
     transform: rotate(0.5turn);
 }
 li.secondTitle>img.img-g
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
-    margin-right: var(--second-margin);
+    padding-right: var(--second-padding);
 }
 
 li.thirdTitle>img.img-d
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
-    margin-left: var(--third-margin);
+    padding-right: var(--third-padding);
     transform: rotate(0.5turn);
 }
 
 li.thirdTitle>img.img-g
 {
-    width: 116px;
+    width: var(--size-mark);
     height: 18px;
-    margin-right: var(--third-margin);
+    padding-right: var(--third-padding);
 }
 
 .titleSection{
