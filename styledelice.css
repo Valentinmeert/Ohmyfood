@@ -80,9 +80,10 @@ footer {
 
 .firstTitle , .secondTitle , .thirdTitle
 {
+    font-family: 'Kalam', cursive;
     font-size: 13px;
     padding:0;
-    font-weight: bold;
+    font-weight: normal;
 }
 
 ul.title.Section>li{
