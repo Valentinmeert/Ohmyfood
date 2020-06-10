@@ -5,11 +5,11 @@
 }
 
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 613px;
     height: 973px;
-    font-family: "Montserrat", Arial, sans-serif;
+    
     display: flex;
     flex-direction: column;
     padding: 0;
@@ -24,6 +24,7 @@ header {
     text-align: center;
     font-weight: 700;
     padding-bottom: 12px;
+    font-family: "Montserrat", Arial, sans-serif;
 }
 h1{
     text-align: center;

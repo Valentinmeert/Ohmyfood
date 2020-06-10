@@ -1,104 +1,154 @@
+:root {
+    --first-padding: 39px;
+    --second-padding: 14px;
+    --third-padding: 7px;
+    --size-mark: 168px;
+}
+
 body {
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 613px;
     height: 973px;
-    font-family: "Montserrat", Arial, sans-serif;
     display: flex;
     flex-direction: column;
-    padding: 0;
+
 }
 
 header {
     height: 100px;
-    background-color: #00897B;
+    background-color: #559c84;
     color: #FFC400;
     font-size: 35px;
     line-height: 89px;
     text-align: center;
     font-weight: 700;
+    padding-bottom: 12px;
 }
+
 h1{
     text-align: center;
-}
-img {
-    width: 50px;
-    height: 50px;
+    font-size: 46px;
+    margin: 76px 0 80px 0;
+    font-family: 'Kaushan Script', cursive;
+    font-weight:normal;
 }
 
 ul {
-    margin: 0 50px;
+    margin: 0;
     padding: 0;
-    list-style-type: none;
-    background-color: rgb(236, 236, 236);
 }
 
 li  {
     text-align: left;
     display: flex;
     flex-direction: row;
+    list-style-type: none;
+    padding: 0 32px;
+    margin-bottom: 10px ;
 }
+
 .menu {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: space-between;
-    /* background-color: #F9F9F9; */
-    height: 800px;
-    padding: 20px;
-    margin-bottom: 5px;
-    font-size: 13px;
+    height: 900px;
+    font-size: 12px;
+    background-color: #FFF5FE;
+    margin:35px 50px 13px 50px;
+    padding: 0 25px;
+    font-family: 'Kalam', cursive;
 }
 
 footer {
     display: flex;
     justify-content: space-around;
     height: 56px;
-    background-color: #00897B;
+    background-color: #559c84;
     color: #FFC400;
     font-size: 20px;
     line-height: 63px;
     text-align: center;
+    margin-top:43px;
 }
 
 .price{
     margin-left:auto;
+    font-weight: bold;
 }
 
-.note , .title {
-    margin:0 auto;
+.firstTitle , .secondTitle , .thirdTitle
+{
+    font-size: 13px;
+    padding:0;
+    font-weight: bold;
 }
 
-hr {
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
+ul.title.Section>li{
+    padding: 79px 144px;
+    font-size: 25px;
     text-align: center;
-    height: 5px;
-    margin:0;
-}
-hr.first::after {
-    background: rgb(236, 236, 236);
-    content: 'Pour de mettre en appétit';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
 }
 
-hr.second::after {
-    background: rgb(236, 236, 236);
-    content: 'Plaisir des papilles';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
+.first {
+    margin-bottom: 39px;
+    
 }
 
-hr.third::after {
-    background: rgb(236, 236, 236);
-    content: 'Gourmandises sucrées';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
+.second{
+    margin-bottom: 36px;
+    
+}
+
+.third{
+    margin-bottom: 25px;
+    
+}
+
+li.firstTitle>img.img-d
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--first-padding);
+    transform: scaleX(-1);
+}
+li.firstTitle>img.img-g
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--first-padding);
+}
+
+li.secondTitle>img.img-d
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--second-padding);
+    transform: scaleX(-1);
+}
+li.secondTitle>img.img-g
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--second-padding);
+}
+
+li.thirdTitle>img.img-d
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--third-padding);
+    transform: scaleX(-1);
+}
+
+li.thirdTitle>img.img-g
+{
+    width: var(--size-mark);
+    height: 10px;
+    padding-right: var(--third-padding);
+}
+
+.titleSection{
+    justify-content: center;
 }

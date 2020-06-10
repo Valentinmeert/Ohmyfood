@@ -19,6 +19,7 @@ body {
 header {
     height: 100px;
     background-color: #559c84;
+    font-family: "Montserrat", Arial, sans-serif;
     color: #FFC400;
     font-size: 35px;
     line-height: 89px;
@@ -30,7 +31,9 @@ header {
 h1{
     text-align: center;
     font-size: 25px;
-    margin: 31px 0 16px 0;
+    margin: 60px 0 60px 0;
+    text-align: center;
+    font-weight: normal;
 }
 
 ul {
@@ -80,12 +83,7 @@ footer {
     font-size: 13px;
     font-weight: bold;
     padding:0;
-}
-
-ul.title.Section>li{
-    padding: 79px 144px;
-    font-size: 25px;
-    text-align: center;
+    margin-bottom: 24px;
 }
 
 .first {
