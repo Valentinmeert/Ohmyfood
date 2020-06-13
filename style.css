@@ -90,10 +90,20 @@ section {
 
 .secondTitle {
   padding-top: 137px;
+    background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.subtitle{
+  color:#e38a12;
 }
 
 .thirdTitle {
   padding-top: 137px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .fourthTitle {
