@@ -78,14 +78,24 @@ ul {
   font-family: 'Kaushan Script', cursive;
 }
 
+.firstTitle , .secondTitle , .thirdTitle , .fourthTitle{
+  margin-bottom: 8px;
+  font-size: 20px;
+}
+
 section {
   background-color: #559c84;
   align-self: flex-end;
   margin: 11px auto;
-  padding: 5px 40px;
+  padding: 8px 40px;
   border-radius: 10px;
-  font-size: 31px;
-  color: #cfba55;
+  font-size: 25px;
+  color: #FFC400;
+}
+
+
+.subtitle{
+  font-size: 26px;
 }
 
 .secondTitle {
@@ -95,8 +105,24 @@ section {
     -webkit-text-fill-color: transparent;
 }
 
-.subtitle{
+ul.first.Card>li.subtitle{
+
+  font-family: 'Kalam', cursive;
+}
+
+ul.second.Card>li.subtitle{
   color:#e38a12;
+  font-weight: bold;
+}
+
+ul.third.Card>li.subtitle{
+  color:#102fdb;
+  font-family: 'Kalam', cursive;
+}
+
+ul.fourth.Card>li.subtitle{
+  color:#3d923a;
+  font-family: 'Kalam', cursive;
 }
 
 .thirdTitle {
@@ -108,17 +134,26 @@ section {
 
 .fourthTitle {
   padding-top: 137px;
+  background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 footer {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   height: 56px;
   background-color: #559c84;
-  color: #cfba55;
+  color: #FFC400;
   font-size: 20px;
   line-height: 63px;
   text-align: center;
+  padding: 0 10px;
+}
+
+footer>a{
+  -webkit-animation: wiggle 3s infinite;
+  animation: wiggle 3s infinite;
 }
 
 div#main>a {
@@ -126,4 +161,33 @@ div#main>a {
   color: black;
 }
 
-/*# sourceMappingURL=style.css.map */
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg); }
+  3% {
+    transform: rotate(-2deg); }
+  5% {
+    transform: rotate(5deg); }
+  6% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } 
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0; }
+  40%, 60% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+    section>span {
+      -webkit-animation: blink 2.5s infinite;
+      animation: blink 2.5s infinite; }
+    section>span:nth-child(2) {
+      -webkit-animation-delay: 0.6s;
+      animation-delay: 0.6s; }
+    section>span:nth-child(3) {
+      -webkit-animation-delay: 1.2s;
+      animation-delay: 1.2s; }
