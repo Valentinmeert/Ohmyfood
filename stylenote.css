@@ -167,3 +167,24 @@ p {
     margin:14px 0 41px 0;
     padding:0px;
 }
+
+i{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+i::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    margin-bottom: 9px;
+    background-color: #000;
+    transition: width 0.4s;
+}
+
+i:hover:after {
+    width: 100%;
+}
+
