@@ -97,17 +97,14 @@ ul.title.Section>li{
 
 .first {
     margin-bottom: 39px;
-    
 }
 
 .second{
     margin-bottom: 36px;
-    
 }
 
 .third{
     margin-bottom: 25px;
-    
 }
 
 li.firstTitle>img.img-d
@@ -155,4 +152,24 @@ li.thirdTitle>img.img-g
 
 .titleSection{
     justify-content: center;
+}
+
+i{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+}
+
+i::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    margin-bottom: 9px;
+    background-color: #000;
+    transition: width 0.4s;
+}
+
+i:hover:after {
+    width: 100%;
 }

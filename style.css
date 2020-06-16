@@ -6,7 +6,6 @@ body {
   font-family: "Montserrat", Arial, sans-serif;
   display: flex;
   flex-direction: column;
-
 }
 
 header {
@@ -19,20 +18,20 @@ header {
   font-weight: 700;
 }
 
-li {
-  text-align: center;
-}
-
-img {
-  padding-top: 86px;
-  width: 30px;
-  height: 30px;
-}
-
 ul {
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+li {
+  text-align: center;
+}
+
+#main img {
+  padding-top: 86px;
+  width: 30px;
+  height: 30px;
 }
 
 #main {
@@ -57,33 +56,33 @@ ul {
   transform: scale(1.15);
 }
 
-.first {
+#main .first {
   background-color: #fbdcdb;
   font-family: 'Ma Shan Zheng', cursive;
 }
 
 
-.second {
+#main .second {
   background-color: #fbf3fb;
   font-family: 'Playfair Display', serif;
 }
 
-.third {
+#main .third {
   background-color: #fbfbfb;
   font-family: 'Dancing Script', cursive;
 }
 
-.fourth {
+#main .fourth {
   background-color: white;
   font-family: 'Kaushan Script', cursive;
 }
 
-.firstTitle , .secondTitle , .thirdTitle , .fourthTitle{
+#main .firstTitle ,#main .secondTitle ,#main .thirdTitle , #main .fourthTitle{
   margin-bottom: 8px;
   font-size: 20px;
 }
 
-section {
+#main section {
   background-color: #559c84;
   align-self: flex-end;
   margin: 11px auto;
@@ -94,11 +93,11 @@ section {
 }
 
 
-.subtitle{
+#main .subtitle{
   font-size: 26px;
 }
 
-.secondTitle {
+#main .secondTitle {
   padding-top: 137px;
     background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
     -webkit-background-clip: text;
@@ -125,14 +124,14 @@ ul.fourth.Card>li.subtitle{
   font-family: 'Kalam', cursive;
 }
 
-.thirdTitle {
+#main .thirdTitle {
   padding-top: 137px;
   background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.fourthTitle {
+#main .fourthTitle {
   padding-top: 137px;
   background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
   -webkit-background-clip: text;
@@ -151,10 +150,10 @@ footer {
   padding: 0 10px;
 }
 
-footer>a{
+/* footer>a{
   -webkit-animation: wiggle 3s infinite;
   animation: wiggle 3s infinite;
-}
+} */
 
 div#main>a {
   text-decoration: none;
@@ -191,3 +190,162 @@ div#main>a {
     section>span:nth-child(3) {
       -webkit-animation-delay: 1.2s;
       animation-delay: 1.2s; }
+
+
+
+
+
+
+
+
+      #menu_note {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+        font-family: 'Kalam', cursive;
+        align-items: center;
+        height: 800px;
+        padding:35px 51px 0px 51px;
+        font-size: 13px;
+        background-color: #FCDFDB;
+        margin:0px 50px 13px 50px;
+    }
+
+    #menu_note li  {
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      margin-bottom: 10px ;
+  }
+
+  #menu_note .price{
+      margin-left:auto;
+      font-weight: bold;
+  }
+
+  #menu_note .note , #menu_note .title {
+      font-family: 'Ma Shan Zheng', cursive;
+      font-size: 25px;
+  }
+
+  .musicbot
+{
+    width: 22px;
+    height: 22px;
+    margin-right:5px;
+}
+
+#menu_note li.firstTitle>img.img-d
+{
+    width: 116px;
+    height: 18px;
+    margin-left: var(--first-margin)
+}
+#menu_note li.firstTitle>img.img-g
+{
+    width: 116px;
+    height: 18px;
+    margin-right: var(--first-margin)
+}
+
+#menu_note li.secondTitle>img.img-d
+{
+    width: 116px;
+    height: 18px;
+    margin-left: var(--second-margin)
+}
+#menu_note li.secondTitle>img.img-g
+{
+    width: 116px;
+    height: 18px;
+    margin-right: var(--second-margin)
+}
+
+#menu_note li.thirdTitle>img.img-d
+{
+    width: 116px;
+    height: 18px;
+    margin-left: var(--third-margin)
+}
+
+#menu_note li.thirdTitle>img.img-g
+{
+    width: 116px;
+    height: 18px;
+    margin-right: var(--third-margin)
+}
+
+#menu_note .firstTitle , #menu_note .secondTitle ,#menu_note .thirdTitle
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.music {
+  width: 50px;
+  height: 50px;
+}
+
+:root {
+  --first-margin: 63px;
+  --second-margin: 44px;
+  --third-margin: 33px;
+}
+
+#menu_note p {
+  margin:14px 0 41px 0;
+  padding:0px;
+}
+
+#menu_note i{
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#menu_note .title {
+  margin-bottom: 16px;
+}
+
+#menu_note .first {
+  margin-bottom: 39px;
+}
+
+#menu_note .second{
+  margin-bottom: 36px;
+}
+
+#menu_note .third{
+  margin-bottom: 25px;
+}
+
+i{
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+i::after{
+  content: "";
+  display: block;
+  height: 2px;
+  width: 0%;
+  margin-bottom: 9px;
+  background-color: #000;
+  transition: width 0.4s;
+}
+
+i:hover:after {
+  width: 100%;
+}
+
+/* h1{
+    font-family: 'Kalam', cursive;
+    text-align: center;
+    font-size: 25px;
+    margin: 31px 0 16px 0;
+} */
