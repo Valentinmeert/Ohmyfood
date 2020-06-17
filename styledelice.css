@@ -51,7 +51,7 @@ li  {
     margin-bottom: 10px ;
 }
 
-.menu {
+#menu_delice {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;

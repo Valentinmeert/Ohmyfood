@@ -1,4 +1,4 @@
-:root {
+#menu_gout {
     --first-padding: 39px;
     --second-padding: 14px;
     --third-padding: 7px;
@@ -51,7 +51,7 @@ li  {
     margin-bottom: 10px ;
 }
 
-.menu {
+#menu_gout {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
