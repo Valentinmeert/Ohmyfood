@@ -4,7 +4,7 @@
 body {
   margin:0;
   padding: 0;
-  width: 613px;
+  width:100%;
   height: 973px;
   font-family: "Montserrat", Arial, sans-serif;
   display: flex;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-  width:100%;
+  width: 100%;
   height: 100px;
   background-color: #559c84;
   color: #FFC400;
@@ -39,16 +39,16 @@ footer {
   height: 56px;
   background-color: #559c84;
   color: #FFC400;
-  font-size: 20px;
+  font-size: 17px;
   line-height: 63px;
   text-align: center;
   padding: 0 10px;
 }
 
-footer>a{
+/* footer>a{
   -webkit-animation: wiggle 3s infinite;
   animation: wiggle 3s infinite;
-}
+} */
 
 div#main>a {
   text-decoration: none;
@@ -70,7 +70,7 @@ a{
 3% {
   transform: rotate(-2deg); }
 5% {
-  transform: rotate(5deg); }
+  transform: rotate(2deg); }
 6% {
   transform: rotate(0deg); }
 100% {
@@ -124,6 +124,8 @@ a{
 }
 
 #main {
+  margin: auto;
+  width: 613px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -230,6 +232,8 @@ a{
 /* MENU DE LA NOTE ENCHANTEE */
 
 #menu_note {
+  margin: auto;
+  width: 613px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -237,10 +241,8 @@ a{
   font-family: 'Kalam', cursive;
   align-items: center;
   height: 900px;
-  padding:35px 51px 0px 51px ; 
-  font-size: 13px;
+  font-size: 14px;
   background-color: #FCDFDB;
-  margin:35px 50px 13px 50px;
 }
 
 #menu_note li  {
@@ -250,7 +252,7 @@ a{
   padding: 0;
   margin: 0;
   list-style-type: none;
-  margin-bottom: 10px ;
+  margin-bottom: 8px ;
 }
 
 #menu_note .price{
@@ -258,9 +260,15 @@ a{
   font-weight: bold;
 }
 
-#menu_note .note , #menu_note .title {
+#menu_note .title {
     font-family: 'Ma Shan Zheng', cursive;
-    font-size: 25px;
+    font-size: 37px;
+    margin-bottom: 21px;
+}
+
+#menu_note .note{
+  font-family: 'Ma Shan Zheng', cursive;
+  font-size: 37px;
 }
 
 .musicbot
@@ -272,63 +280,65 @@ a{
 
 #menu_note li.firstTitle>img.img-d
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-left: var(--first-margin)
 }
 #menu_note li.firstTitle>img.img-g
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-right: var(--first-margin)
 }
 
 #menu_note li.secondTitle>img.img-d
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-left: var(--second-margin)
 }
 #menu_note li.secondTitle>img.img-g
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-right: var(--second-margin)
 }
 
 #menu_note li.thirdTitle>img.img-d
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-left: var(--third-margin)
 }
 
 #menu_note li.thirdTitle>img.img-g
 {
-  width: 116px;
-  height: 18px;
+  width: 156px;
+  height: 29px;
   margin-right: var(--third-margin)
 }
 
 #menu_note .firstTitle , #menu_note .secondTitle ,#menu_note .thirdTitle
 {
-    font-size: 15px;
+    font-size: 21px;
     font-weight: bold;
 }
 
 .music {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
+  margin-top:43px;
+  margin-bottom: -6px;;
 }
 
 #menu_note {
-  --first-margin: 63px;
-  --second-margin: 44px;
-  --third-margin: 33px;
+  --first-margin: 58px;
+  --second-margin: 29px;
+  --third-margin: 14px;
 }
 
 #menu_note p {
-  margin:14px 0 41px 0;
+  margin:4px 0 0 0;
   padding:0px;
 }
 
@@ -336,10 +346,6 @@ a{
   font-style: normal;
   margin: 0;
   padding: 0;
-}
-
-#menu_note .title {
-  margin-bottom: 16px;
 }
 
 #menu_note .first {
@@ -364,32 +370,41 @@ a{
 /* LE CHIC A LA FRANCAISE */
 
 #menu_chic {
+  --first-margin: 2px;
+  --second-padding: 21px;
+  --third-padding: 9px;
+  --size-mark:212px;
+}
+
+#menu_chic {
+  margin: auto;
+  width: 613px;
   display: flex;
   flex-direction: column;
   font-family: 'Playfair Display', serif;
   flex-wrap: wrap;
   text-align: center;
   height: 900px;
-  font-size: 13px;
+  font-size: 14px;
   background-color: #FFF5FE;
-  margin:35px 50px 13px 50px;
+  
 }
 
 #menu_chic .firstTitle , #menu_chic .secondTitle ,#menu_chic .thirdTitle
 {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
-  padding:0;
-  margin-bottom: 24px;
+  padding:0 5px;
+  margin-bottom: 12px;
 }
 
 #menu_chic .first {
-  margin-bottom: 39px;
+  margin-bottom: 42px;
   color:#c67412;
 }
 
 #menu_chic .second{
-  margin-bottom: 36px;
+  margin-bottom: 43px;
   color:#a56799;
 }
 
@@ -447,8 +462,8 @@ a{
 
 #menu_chic h1{
   text-align: center;
-  font-size: 25px;
-  margin: 60px 0 60px 0;
+  font-size: 31px;
+  margin: 86px 0 76px 0;
   text-align: center;
   font-weight: bold;
   background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
@@ -456,20 +471,14 @@ a{
   -webkit-text-fill-color: transparent;
 }
 
-#menu_chic {
-  --first-margin: 2px;
-  --second-padding: 21px;
-  --third-padding: 9px;
-  --size-mark:179px;
-}
 
 #menu_chic li  {
   text-align: left;
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 0 51px;
-  margin-bottom: 10px ;
+  padding: 0 91px;
+  margin-bottom: 13px ;
 }
 
 /* MENU DELICE DES PAPILLES */ 
@@ -478,19 +487,19 @@ a{
   --first-padding: 16px;
   --second-padding: 21px;
   --third-padding: 23px;
-  --size-mark:154px;
+  --size-mark:183px;
 }
 
 #menu_delice {
+  margin: auto;
+  width: 613px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   text-align: center;
   height: 900px;
-  font-size: 12px;
+  font-size: 14px;
   background-color: #FFF5FE;
-  margin:35px 50px 13px 50px;
-  padding: 0 25px;
   font-family: 'Kalam', cursive;
 }
 
@@ -499,14 +508,14 @@ a{
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  padding: 0 51px;
-  margin-bottom: 10px ;
+  padding: 0 92px;
+  margin-bottom: 6px ;
 }
 
 #menu_delice h1{
   text-align: center;
-  font-size: 46px;
-  margin: 76px 0 80px 0;
+  font-size: 52px;
+  margin: 76px 0 62px 0;
   font-family: 'Dancing Script', serif;
   background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
   -webkit-background-clip: text;
@@ -517,9 +526,9 @@ a{
 #menu_delice .firstTitle ,#menu_delice .secondTitle ,#menu_delice .thirdTitle
 {
     font-family: 'Kalam', cursive;
-    font-size: 13px;
-    padding:0;
+    font-size: 17px;
     font-weight: normal;
+    padding:0 29px;
 }
 
 #menu_delice ul.title.Section>li{
@@ -529,15 +538,11 @@ a{
 }
 
 #menu_delice .first {
-    margin-bottom: 39px;
+    margin-bottom: 35px;
 }
 
 #menu_delice .second{
-    margin-bottom: 36px;
-}
-
-#menu_delice .third{
-    margin-bottom: 25px;
+    margin-bottom: 30px;
 }
 
 #menu_delice li.firstTitle>img.img-d
@@ -613,6 +618,8 @@ a{
 }
 
 #menu_gout {
+  margin: auto;
+  width: 613px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -620,7 +627,6 @@ a{
   height: 900px;
   font-size: 12px;
   background-color: #FFF5FE;
-  margin:35px 50px 13px 50px;
   padding: 0 25px;
   font-family: 'Kalam', cursive;
 }
@@ -701,4 +707,5 @@ a{
   background: -webkit-gradient(linear, left top, left bottom, from(#000), to(#045FB4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
 }
