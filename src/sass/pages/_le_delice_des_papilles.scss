@@ -1,0 +1,104 @@
+#menu_delice {
+    --first-padding: 16px;
+    --second-padding: 21px;
+    --third-padding: 23px;
+    --size-mark:183px;
+  }
+  
+  #menu_delice {
+    margin: auto;
+    width: 613px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 900px;
+    font-size: 14px;
+    background-color: #FFF5FE;
+    font-family: 'Kalam', cursive;
+  }
+  
+  #menu_delice li  {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 92px;
+    margin-bottom: 6px ;
+  }
+  
+  #menu_delice h1{
+    text-align: center;
+    font-size: 52px;
+    margin: 76px 0 62px 0;
+    font-family: 'Dancing Script', serif;
+    background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+  }
+  
+  #menu_delice .firstTitle ,#menu_delice .secondTitle ,#menu_delice .thirdTitle
+  {
+      font-family: 'Kalam', cursive;
+      font-size: 17px;
+      font-weight: normal;
+      padding:0 29px;
+  }
+  
+  #menu_delice ul.title.Section>li{
+      padding: 79px 144px;
+      font-size: 25px;
+      text-align: center;
+  }
+  
+  #menu_delice .first {
+      margin-bottom: 35px;
+  }
+  
+  #menu_delice .second{
+      margin-bottom: 30px;
+  }
+  
+  #menu_delice li.firstTitle>img.img-d
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--first-padding);
+      transform: scaleX(-1);
+  }
+  #menu_delice li.firstTitle>img.img-g
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--first-padding);
+  }
+  
+  #menu_delice li.secondTitle>img.img-d
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--second-padding);
+      transform: scaleX(-1);
+  }
+  #menu_delice li.secondTitle>img.img-g
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--second-padding);
+  }
+  
+  #menu_delice li.thirdTitle>img.img-d
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--third-padding);
+      transform: scaleX(-1);
+  }
+  
+  #menu_delice li.thirdTitle>img.img-g
+  {
+      width: var(--size-mark);
+      height: 18px;
+      padding-right: var(--third-padding);
+  }

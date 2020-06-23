@@ -1,0 +1,111 @@
+#menu_chic {
+    --first-margin: 2px;
+    --second-padding: 21px;
+    --third-padding: 9px;
+    --size-mark:212px;
+  }
+  
+  #menu_chic {
+    margin: auto;
+    width: 613px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Playfair Display', serif;
+    flex-wrap: wrap;
+    text-align: center;
+    height: 900px;
+    font-size: 14px;
+    background-color: #FFF5FE;
+    
+  }
+  
+  #menu_chic .firstTitle , #menu_chic .secondTitle ,#menu_chic .thirdTitle
+  {
+    font-size: 15px;
+    font-weight: bold;
+    padding:0 5px;
+    margin-bottom: 12px;
+  }
+  
+  #menu_chic .first {
+    margin-bottom: 42px;
+    color:#c67412;
+  }
+  
+  #menu_chic .second{
+    margin-bottom: 43px;
+    color:#a56799;
+  }
+  
+  #menu_chic .third{
+    margin-bottom: 25px;
+    color: #6e4ccc;
+  }
+  
+  #menu_chic li.firstTitle>img.img-d
+  {
+    width: var(--size-mark);
+    height: 18px;
+    margin-right: var(--first-margin);
+    transform: rotate(0.5turn);
+  }
+  #menu_chic li.firstTitle>img.img-g
+  {
+    width: var(--size-mark);
+    height: 18px;
+    margin-right: var(--first-margin);
+  }
+  
+  #menu_chic li.secondTitle>img.img-d
+  {
+    width: var(--size-mark);
+    height: 18px;
+    padding-right: var(--second-padding);
+    transform: rotate(0.5turn);
+  }
+  #menu_chic li.secondTitle>img.img-g
+  {
+    width: var(--size-mark);
+    height: 18px;
+    padding-right: var(--second-padding);
+  }
+  
+  #menu_chic li.thirdTitle>img.img-d
+  {
+    width: var(--size-mark);
+    height: 18px;
+    padding-right: var(--third-padding);
+    transform: rotate(0.5turn);
+  }
+  
+  #menu_chic li.thirdTitle>img.img-g
+  {
+    width: var(--size-mark);
+    height: 18px;
+    padding-right: var(--third-padding);
+  }
+  
+  #menu_chic .titleSection{
+    justify-content: center;
+  }
+  
+  #menu_chic h1{
+    text-align: center;
+    font-size: 31px;
+    margin: 86px 0 76px 0;
+    text-align: center;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  
+  #menu_chic li  {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding: 0 91px;
+    margin-bottom: 13px ;
+  }
