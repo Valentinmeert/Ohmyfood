@@ -45,10 +45,10 @@ footer {
   padding: 0 10px;
 }
 
-/* footer>a{
+footer>a{
   -webkit-animation: wiggle 3s infinite;
   animation: wiggle 3s infinite;
-} */
+}
 
 div#main>a {
   text-decoration: none;
