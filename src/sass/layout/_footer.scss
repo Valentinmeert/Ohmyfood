@@ -3,15 +3,10 @@ footer {
     display: flex;
     justify-content: space-between;
     height: 56px;
-    background-color: #559c84;
-    color: #FFC400;
+    background-color: $dark_green;
+    color: $yellow;
     font-size: 17px;
     line-height: 63px;
     text-align: center;
     padding: 0 10px;
-  }
-
-  footer>a{
-    -webkit-animation: wiggle 3s infinite;
-    animation: wiggle 3s infinite;
   }

@@ -1,128 +1,104 @@
-#menu_note {
-    margin: auto;
-    width: 613px;
-    display: flex;
+#menu_note{
+    @extend .typography;
     flex-direction: column;
-    flex-wrap: wrap;
     text-align: center;
     font-family: 'Kalam', cursive;
     align-items: center;
-    height: 900px;
     font-size: 14px;
     background-color: #FCDFDB;
-  }
-  
-  #menu_note li  {
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    margin-bottom: 8px ;
-  }
-  
-  #menu_note .price{
-    margin-left:auto;
-    font-weight: bold;
-  }
-  
-  #menu_note .title {
-    font-family: 'Devonshire', cursive;
+    li  {
+      text-align: left;
+      display: flex;
+      flex-direction: row;
+      padding: 0;
+      margin: 0;
+      list-style-type: none;
+      margin-bottom: 8px ;
+    }
+    
+    .title {
+      font-family: 'Devonshire', cursive;
       font-size: 37px;
       margin-bottom: 21px;
+    }
+    
+    .note{
+      font-family: 'Devonshire', cursive;
+      font-size: 37px;
+    }
+    
+    .musicbot
+    {
+      width: 22px;
+      height: 22px;
+      margin-right:5px;
+    }
+    
+    li.firstTitle>img.img-d
+    {
+      @include size_decoration_right_note ($first-margin_note)
+    }
+
+    li.firstTitle>img.img-g
+    {
+      @include size_decoration_left_note ($first-margin_note)
+    }
+    
+    li.secondTitle>img.img-d
+    {
+      @include size_decoration_right_note ($second-margin_note)
+    }
+
+    li.secondTitle>img.img-g
+    {
+      @include size_decoration_left_note ($second-margin_note)
+    }
+    
+    li.thirdTitle>img.img-d
+    {
+      @include size_decoration_right_note ($third-margin_note)
+    }
+    
+    li.thirdTitle>img.img-g
+    {
+      @include size_decoration_left_note ($third-margin_note)
+    }
+    
+    .firstTitle , .secondTitle ,.thirdTitle
+    {
+        font-size: 21px;
+        font-weight: bold;
+    }
+    
+    .music {
+      width: 60px;
+      height: 60px;
+      margin-top:43px;
+      margin-bottom: -6px;;
+    }
+
+    p {
+      margin:4px 0 0 0;
+      padding:0px;
+    }
+    
+    i{
+      font-style: normal;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .first {
+      margin-bottom: 39px;
+    }
+    
+    .second{
+      margin-bottom: 36px;
+    }
+    
+    .third{
+      margin-bottom: 25px;
+    }
   }
-  
-  #menu_note .note{
-    font-family: 'Devonshire', cursive;
-    font-size: 37px;
-  }
-  
-  .musicbot
-  {
-    width: 22px;
-    height: 22px;
-    margin-right:5px;
-  }
-  
-  #menu_note li.firstTitle>img.img-d
-  {
-    width: 156px;
-    height: 29px;
-    margin-left: var(--first-margin)
-  }
-  #menu_note li.firstTitle>img.img-g
-  {
-    width: 156px;
-    height: 29px;
-    margin-right: var(--first-margin)
-  }
-  
-  #menu_note li.secondTitle>img.img-d
-  {
-    width: 156px;
-    height: 29px;
-    margin-left: var(--second-margin)
-  }
-  #menu_note li.secondTitle>img.img-g
-  {
-    width: 156px;
-    height: 29px;
-    margin-right: var(--second-margin)
-  }
-  
-  #menu_note li.thirdTitle>img.img-d
-  {
-    width: 156px;
-    height: 29px;
-    margin-left: var(--third-margin)
-  }
-  
-  #menu_note li.thirdTitle>img.img-g
-  {
-    width: 156px;
-    height: 29px;
-    margin-right: var(--third-margin)
-  }
-  
-  #menu_note .firstTitle , #menu_note .secondTitle ,#menu_note .thirdTitle
-  {
-      font-size: 21px;
-      font-weight: bold;
-  }
-  
-  .music {
-    width: 60px;
-    height: 60px;
-    margin-top:43px;
-    margin-bottom: -6px;;
-  }
-  
-  #menu_note {
-    --first-margin: 58px;
-    --second-margin: 29px;
-    --third-margin: 14px;
-  }
-  
-  #menu_note p {
-    margin:4px 0 0 0;
-    padding:0px;
-  }
-  
-  #menu_note i{
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-  }
-  
-  #menu_note .first {
-    margin-bottom: 39px;
-  }
-  
-  #menu_note .second{
-    margin-bottom: 36px;
-  }
-  
-  #menu_note .third{
-    margin-bottom: 25px;
-  }
+
+

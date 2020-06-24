@@ -1,61 +1,47 @@
-#main img {
+#main{
+  @extend .typography;
+  flex-direction: row;
+  justify-content: center;
+  background-color: $light_grey;
+  padding: 20px;
+  margin-bottom: 5px;
+  img {
     padding-top: 86px;
     width: 30px;
     height: 30px;
   }
-  
-  #main {
-    margin: auto;
-    width: 613px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #F9F9F9;
-    height: 800px;
-    padding: 20px;
-    margin-bottom: 5px;
-  }
-  
-  #main .Card {
+  .Card {
     height: 310px;
     width: 220px;
     margin: 20px;
     box-shadow: 0 0 17px -10px #735F5D;
     transition: transform 400ms;
+        &:hover {
+          transform: scale(1.15);
+        }
   }
-  #main .Card:hover {
-    transform: scale(1.15);
-  }
-  
-  #main .first {
-    background-color: #fbdcdb;
+  .first {
+    background-color: $pink;
     font-family: 'Devonshire', cursive;
   }
-  
-  
-  #main .second {
-    background-color: #fbf3fb;
+  .second {
+    background-color: $light_violet;
     font-family: 'Playfair Display', serif;
   }
-  
-  #main .third {
-    background-color: #fbfbfb;
+  .third {
+    background-color: $light_grey;
     font-family: 'Dancing Script', cursive;
   }
-  
-  #main .fourth {
+  .fourth {
     background-color: white;
     font-family: 'Kaushan Script', cursive;
   }
-  
-  #main .firstTitle ,#main .secondTitle ,#main .thirdTitle , #main .fourthTitle{
+  .firstTitle {
     margin-bottom: 8px;
     font-size: 20px;
   }
-  
-  #main section {
-    background-color: #559c84;
+  section {
+    background-color: $dark_green;
     align-self: flex-end;
     margin: 11px auto;
     padding: 8px 40px;
@@ -63,49 +49,49 @@
     font-size: 25px;
     color: #FFC400;
   }
-  
-  
-  #main .subtitle{
+  .subtitle{
     font-size: 26px;
   }
+
   
-  #main .secondTitle {
-    padding-top: 137px;
-      background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-  }
-  
-  #main ul.first.Card>li.subtitle{
-  
+  ul.first.Card>li.subtitle{
     font-family: 'Kalam', cursive;
   }
   
-  #main ul.second.Card>li.subtitle{
+  ul.second.Card>li.subtitle{
     color:#e38a12;
     font-weight: bold;
   }
   
-  #main ul.third.Card>li.subtitle{
+  ul.third.Card>li.subtitle{
     color:#102fdb;
     font-family: 'Kalam', cursive;
   }
   
-  #main ul.fourth.Card>li.subtitle{
+  ul.fourth.Card>li.subtitle{
     color:#3d923a;
     font-family: 'Kalam', cursive;
   }
   
-  #main .thirdTitle {
+  .secondTitle {
+
+    @include gradient(#e38a12 , #a67afd);
+    margin-bottom: 8px;
+    font-size: 20px;
     padding-top: 137px;
-    background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  }
+
+  .thirdTitle {
+    @include gradient(#102fdb , #178ffb);
+    margin-bottom: 8px;
+    font-size: 20px;
+    padding-top: 137px;
   }
   
-  #main .fourthTitle {
+  .fourthTitle {
+    @include gradient(#3d923a , #beff7f);
+    margin-bottom: 8px;
+    font-size: 20px;
     padding-top: 137px;
-    background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
+}

@@ -1,0 +1,35 @@
+@mixin size_decoration_left_note ($margin) {
+      width: 156px;
+      height: 29px;
+      margin-right: $margin;
+}
+
+@mixin size_decoration_right_note ($margin) {
+    width: 156px;
+    height: 29px;
+    margin-left: $margin;
+}
+
+@mixin size_decoration_gout ($padding , $size) {
+    width: $size;
+    height: 10px;
+    padding-right: $padding;
+}
+
+@mixin size_decoration_chic ($margin , $size) {
+    width : $size;
+    height: 18px;
+    margin-right: $margin;
+}
+
+@mixin size_decoration_delice ($padding , $size) {
+    width : $size;
+    height: 18px;
+    padding-right: $padding;
+}
+
+@mixin gradient ($start_color , $end-color) {
+    background: -webkit-gradient(linear, left top, right bottom, from($start_color), to($end-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
