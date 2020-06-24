@@ -1,33 +1,25 @@
 #menu_delice{
-    margin: auto;
-    width: 613px;
-    display: flex;
+    @extend .typography;
     flex-direction: column;
-    flex-wrap: wrap;
     text-align: center;
-    height: 900px;
     font-size: 14px;
     background-color: #FFF5FE;
     font-family: 'Kalam', cursive;
 
-    li  {
-        text-align: left;
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
-        padding: 0 92px;
-        margin-bottom: 6px ;
-      }
-      
     h1{
         text-align: center;
         font-size: 52px;
         margin: 76px 0 62px 0;
         font-family: 'Dancing Script', serif;
-        @include gradient (#102FBD , #178FFB);
         font-weight: bold;
+        @include gradient (#102FBD , #178FFB);
+        
       }
-      
+    li{
+        @include setting_li;
+        padding: 0 92px;
+        margin-bottom: 6px ;
+      }
     .firstTitle ,.secondTitle ,.thirdTitle
       {
           font-family: 'Kalam', cursive;

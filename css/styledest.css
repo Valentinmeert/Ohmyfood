@@ -1,4 +1,4 @@
-.typography, #main, #menu_note, #menu_gout {
+.typography, #main, #menu_note, #menu_gout, #menu_chic, #menu_delice {
   margin: auto;
   width: 613px;
   display: flex;
@@ -197,9 +197,9 @@ div#main > a {
     text-align: left;
     display: flex;
     flex-direction: row;
+    list-style-type: none;
     padding: 0;
     margin: 0;
-    list-style-type: none;
     margin-bottom: 8px; }
   #menu_note .title {
     font-family: 'Devonshire', cursive;
@@ -324,14 +324,9 @@ div#main > a {
     padding-right: 7px; }
 
 #menu_chic {
-  margin: auto;
-  width: 613px;
-  display: flex;
   flex-direction: column;
   font-family: 'Playfair Display', serif;
-  flex-wrap: wrap;
   text-align: center;
-  height: 900px;
   font-size: 14px;
   background-color: #FFF5FE; }
   #menu_chic h1 {
@@ -395,16 +390,20 @@ div#main > a {
     justify-content: center; }
 
 #menu_delice {
-  margin: auto;
-  width: 613px;
-  display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
   text-align: center;
-  height: 900px;
   font-size: 14px;
   background-color: #FFF5FE;
   font-family: 'Kalam', cursive; }
+  #menu_delice h1 {
+    text-align: center;
+    font-size: 52px;
+    margin: 76px 0 62px 0;
+    font-family: 'Dancing Script', serif;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right bottom, from(#102FBD), to(#178FFB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
   #menu_delice li {
     text-align: left;
     display: flex;
@@ -412,15 +411,6 @@ div#main > a {
     list-style-type: none;
     padding: 0 92px;
     margin-bottom: 6px; }
-  #menu_delice h1 {
-    text-align: center;
-    font-size: 52px;
-    margin: 76px 0 62px 0;
-    font-family: 'Dancing Script', serif;
-    background: -webkit-gradient(linear, left top, right bottom, from(#102FBD), to(#178FFB));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: bold; }
   #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
     font-family: 'Kalam', cursive;
     font-size: 17px;

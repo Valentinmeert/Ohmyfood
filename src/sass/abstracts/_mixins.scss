@@ -33,3 +33,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+@mixin setting_li {
+    text-align: left;
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+}

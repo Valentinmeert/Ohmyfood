@@ -1,5 +1,4 @@
  #menu_gout{
-
     @extend .typography;
     flex-direction: column;
     text-align: center;
@@ -7,7 +6,6 @@
     background-color: #FFF5FE;
     padding: 0 25px;
     font-family: 'Kalam', cursive;
-
 
     h1{
         text-align: center;
@@ -18,10 +16,7 @@
         @include gradient (#3d923a , #BEFF7F)
       }
      li{
-        text-align: left;
-        display: flex;
-        flex-direction: row;
-        list-style-type: none;
+        @include setting_li;
         padding: 0 32px;
         margin-bottom: 10px ;
       }

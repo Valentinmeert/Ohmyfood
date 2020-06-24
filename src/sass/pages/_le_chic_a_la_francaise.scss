@@ -1,12 +1,8 @@
 #menu_chic {
-    margin: auto;
-    width: 613px;
-    display: flex;
+  @extend .typography;
     flex-direction: column;
     font-family: 'Playfair Display', serif;
-    flex-wrap: wrap;
     text-align: center;
-    height: 900px;
     font-size: 14px;
     background-color: #FFF5FE;
     
@@ -20,10 +16,7 @@
     }
 
     li  {
-      text-align: left;
-      display: flex;
-      flex-direction: row;
-      list-style-type: none;
+      @include setting_li;
       padding: 0 91px;
       margin-bottom: 13px ;
     }
