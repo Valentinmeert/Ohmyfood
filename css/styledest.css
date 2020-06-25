@@ -2,7 +2,7 @@
   margin: auto;
   width: 613px;
   display: flex;
-  height: 800px;
+  height: 730px;
   flex-wrap: wrap;
   /* padding: 20px; */ }
 
@@ -86,6 +86,9 @@ footer {
 
 html {
   height: 100%; }
+
+h1 {
+  margin: 5px  auto; }
 
 body {
   background-color: #F9F9F9;
@@ -213,11 +216,11 @@ div#main > a {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    margin-bottom: 8px; }
+    margin-bottom: 6px; }
   #menu_note .title {
     font-family: 'Devonshire', cursive;
     font-size: 37px;
-    margin-bottom: 21px; }
+    margin-bottom: 12px; }
   #menu_note .note {
     font-family: 'Devonshire', cursive;
     font-size: 37px; }
@@ -255,7 +258,7 @@ div#main > a {
   #menu_note .music {
     width: 60px;
     height: 60px;
-    margin-top: 43px;
+    margin-top: 11px;
     margin-bottom: -6px; }
   #menu_note p {
     margin: 4px 0 0 0;
@@ -265,9 +268,9 @@ div#main > a {
     margin: 0;
     padding: 0; }
   #menu_note .first {
-    margin-bottom: 39px; }
+    margin-bottom: 18px; }
   #menu_note .second {
-    margin-bottom: 36px; }
+    margin-bottom: 15px; }
   #menu_note .third {
     margin-bottom: 25px; }
 
@@ -278,16 +281,15 @@ div#main > a {
   background-color: #FFF5FE;
   padding: 0 25px;
   font-family: 'Kalam', cursive;
-  box-shadow: 0 0 17px -10px #735F5D; }
-  #menu_gout h1 {
-    text-align: center;
-    font-size: 46px;
-    margin: 76px 0 80px 0;
-    font-family: 'Kaushan Script', cursive;
-    font-weight: normal;
-    background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#BEFF7F));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
+  box-shadow: 0 0 17px -10px #735F5D;
+  /*     h1{
+        text-align: center;
+        font-size: 46px;
+        margin: 76px 0 80px 0;
+        font-family: 'Kaushan Script', cursive;
+        font-weight:normal;
+        @include gradient (#3d923a , #BEFF7F)
+      } */ }
   #menu_gout li {
     text-align: left;
     display: flex;
@@ -300,8 +302,13 @@ div#main > a {
     padding: 0 29px;
     font-family: 'Kalam', cursive; }
   #menu_gout ul.title.Section > li {
-    padding: 79px 144px;
-    font-size: 25px;
+    font-size: 46px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight: normal;
+    background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#BEFF7F));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 53px 144px;
     text-align: center; }
   #menu_gout .first {
     margin-bottom: 39px; }
@@ -344,15 +351,6 @@ div#main > a {
   font-size: 14px;
   background-color: #FFF5FE;
   box-shadow: 0 0 17px -10px #735F5D; }
-  #menu_chic h1 {
-    text-align: center;
-    font-size: 31px;
-    margin: 86px 0 76px 0;
-    text-align: center;
-    font-weight: bold;
-    background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
   #menu_chic li {
     text-align: left;
     display: flex;
@@ -403,6 +401,15 @@ div#main > a {
     margin-right: 9px; }
   #menu_chic .titleSection {
     justify-content: center; }
+  #menu_chic ul.title.Section > li {
+    text-align: center;
+    padding: 53px 158px;
+    font-size: 31px;
+    text-align: center;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
 
 #menu_delice {
   flex-direction: column;
@@ -411,15 +418,6 @@ div#main > a {
   background-color: #FFF5FE;
   font-family: 'Kalam', cursive;
   box-shadow: 0 0 17px -10px #735F5D; }
-  #menu_delice h1 {
-    text-align: center;
-    font-size: 52px;
-    margin: 76px 0 62px 0;
-    font-family: 'Dancing Script', serif;
-    font-weight: bold;
-    background: -webkit-gradient(linear, left top, right bottom, from(#102FBD), to(#178FFB));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; }
   #menu_delice li {
     text-align: left;
     display: flex;
@@ -433,8 +431,13 @@ div#main > a {
     font-weight: normal;
     padding: 0 29px; }
   #menu_delice ul.title.Section > li {
-    padding: 79px 144px;
-    font-size: 25px;
+    font-size: 52px;
+    font-family: 'Dancing Script', serif;
+    font-weight: bold;
+    background: -webkit-gradient(linear, left top, right bottom, from(#102FBD), to(#178FFB));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 65px 109px;
     text-align: center; }
   #menu_delice .first {
     margin-bottom: 35px; }

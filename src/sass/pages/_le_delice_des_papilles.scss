@@ -7,15 +7,6 @@
     font-family: 'Kalam', cursive;
     box-shadow: 0 0 17px -10px #735F5D;
 
-    h1{
-        text-align: center;
-        font-size: 52px;
-        margin: 76px 0 62px 0;
-        font-family: 'Dancing Script', serif;
-        font-weight: bold;
-        @include gradient (#102FBD , #178FFB);
-        
-      }
     li{
         @include setting_li;
         padding: 0 92px;
@@ -30,8 +21,11 @@
       }
       
     ul.title.Section>li{
-          padding: 79px 144px;
-          font-size: 25px;
+      font-size: 52px;
+      font-family: 'Dancing Script', serif;
+      font-weight: bold;
+      @include gradient (#102FBD , #178FFB);
+          padding: 65px 109px;
           text-align: center;
       }
       
