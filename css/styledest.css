@@ -158,14 +158,15 @@ div#main > a {
   #main .firstTitle {
     margin-bottom: 8px;
     font-size: 20px; }
-  #main section {
+  #main h6 {
     background-color: #559c84;
     align-self: flex-end;
     margin: 11px auto;
     padding: 8px 40px;
     border-radius: 10px;
     font-size: 25px;
-    color: #FFC400; }
+    color: #FFC400;
+    font-weight: normal; }
   #main .subtitle {
     font-size: 26px; }
   #main ul.first.Card > li.subtitle {
@@ -301,7 +302,7 @@ div#main > a {
     font-size: 17px;
     padding: 0 29px;
     font-family: 'Kalam', cursive; }
-  #menu_gout ul.title.Section > li {
+  #menu_gout ul.title.section > li {
     font-size: 46px;
     font-family: 'Kaushan Script', cursive;
     font-weight: normal;
@@ -399,9 +400,9 @@ div#main > a {
     width: 212px;
     height: 18px;
     margin-right: 9px; }
-  #menu_chic .titleSection {
+  #menu_chic .titlesection {
     justify-content: center; }
-  #menu_chic ul.title.Section > li {
+  #menu_chic ul.title.section > li {
     text-align: center;
     padding: 53px 158px;
     font-size: 31px;
@@ -430,7 +431,7 @@ div#main > a {
     font-size: 17px;
     font-weight: normal;
     padding: 0 29px; }
-  #menu_delice ul.title.Section > li {
+  #menu_delice ul.title.section > li {
     font-size: 52px;
     font-family: 'Dancing Script', serif;
     font-weight: bold;
