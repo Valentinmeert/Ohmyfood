@@ -3,7 +3,8 @@
   width: 613px;
   display: flex;
   height: 800px;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  /* padding: 20px; */ }
 
 @keyframes wiggle {
   0% {
@@ -203,7 +204,8 @@ div#main > a {
   font-family: 'Kalam', cursive;
   align-items: center;
   font-size: 14px;
-  background-color: #FCDFDB; }
+  background-color: #FCDFDB;
+  box-shadow: 0 0 17px -10px #735F5D; }
   #menu_note li {
     text-align: left;
     display: flex;
@@ -272,10 +274,11 @@ div#main > a {
 #menu_gout {
   flex-direction: column;
   text-align: center;
-  font-size: 12px;
+  font-size: 13px;
   background-color: #FFF5FE;
   padding: 0 25px;
-  font-family: 'Kalam', cursive; }
+  font-family: 'Kalam', cursive;
+  box-shadow: 0 0 17px -10px #735F5D; }
   #menu_gout h1 {
     text-align: center;
     font-size: 46px;
@@ -290,11 +293,11 @@ div#main > a {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    padding: 0 32px;
+    padding: 0 84px;
     margin-bottom: 10px; }
   #menu_gout .firstTitle, #menu_gout .secondTitle, #menu_gout .thirdTitle {
-    font-size: 13px;
-    padding: 0;
+    font-size: 17px;
+    padding: 0 29px;
     font-family: 'Kalam', cursive; }
   #menu_gout ul.title.Section > li {
     padding: 79px 144px;
@@ -307,30 +310,30 @@ div#main > a {
   #menu_gout .third {
     margin-bottom: 25px; }
   #menu_gout li.firstTitle > img.img-d {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 39px;
     transform: scaleX(-1); }
   #menu_gout li.firstTitle > img.img-g {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 39px; }
   #menu_gout li.secondTitle > img.img-d {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 14px;
     transform: scaleX(-1); }
   #menu_gout li.secondTitle > img.img-g {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 14px; }
   #menu_gout li.thirdTitle > img.img-d {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 7px;
     transform: scaleX(-1); }
   #menu_gout li.thirdTitle > img.img-g {
-    width: 168px;
+    width: 200px;
     height: 10px;
     padding-right: 7px; }
 
@@ -339,7 +342,8 @@ div#main > a {
   font-family: 'Playfair Display', serif;
   text-align: center;
   font-size: 14px;
-  background-color: #FFF5FE; }
+  background-color: #FFF5FE;
+  box-shadow: 0 0 17px -10px #735F5D; }
   #menu_chic h1 {
     text-align: center;
     font-size: 31px;
@@ -405,7 +409,8 @@ div#main > a {
   text-align: center;
   font-size: 14px;
   background-color: #FFF5FE;
-  font-family: 'Kalam', cursive; }
+  font-family: 'Kalam', cursive;
+  box-shadow: 0 0 17px -10px #735F5D; }
   #menu_delice h1 {
     text-align: center;
     font-size: 52px;

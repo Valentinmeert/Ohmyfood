@@ -6,6 +6,7 @@
     align-items: center;
     font-size: 14px;
     background-color: #FCDFDB;
+    box-shadow: 0 0 17px -10px #735F5D;
     li  {
       @include setting_li;
       padding: 0;
