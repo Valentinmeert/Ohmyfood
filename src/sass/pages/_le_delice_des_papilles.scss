@@ -28,6 +28,9 @@
         @include md {
           padding: 0 38px;
         }
+        @include sm {
+          padding:0 19px;
+        }
       }
     .firstTitle ,.secondTitle ,.thirdTitle
       {
@@ -40,6 +43,9 @@
           }
           @include md {
             font-size: 10px;
+          }
+          @include sm {
+            padding:0 5px;
           }
       }
       
@@ -57,6 +63,10 @@
           @include md {
             font-size: 24px;
             padding: 28px 64px;
+          }
+          @include sm {
+            font-size: 24px;
+            padding: 28px 36px;
           }
       }
       
@@ -112,11 +122,17 @@
             padding-right: 25px;
             margin-right: 0;
           }
+          @include sm {
+            padding-right: 23px;
+          }
       }
       
     li.thirdTitle>img.img-g
       {
         @include size_decoration_delice ($third-padding_delice , $size-mark_delice);
+        @include sm {
+          padding-right: 23px;
+        }
       }
   }
 

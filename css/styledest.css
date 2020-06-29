@@ -765,6 +765,9 @@ div#main > a {
     @media (max-width: 375px) {
       #menu_delice li {
         padding: 0 38px; } }
+    @media (max-width: 320px) {
+      #menu_delice li {
+        padding: 0 19px; } }
   #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
     font-family: 'Kalam', cursive;
     font-size: 17px;
@@ -776,6 +779,9 @@ div#main > a {
     @media (max-width: 375px) {
       #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
         font-size: 10px; } }
+    @media (max-width: 320px) {
+      #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
+        padding: 0 5px; } }
   #menu_delice ul.title.section > li {
     font-size: 52px;
     font-family: 'Dancing Script', serif;
@@ -793,6 +799,10 @@ div#main > a {
       #menu_delice ul.title.section > li {
         font-size: 24px;
         padding: 28px 64px; } }
+    @media (max-width: 320px) {
+      #menu_delice ul.title.section > li {
+        font-size: 24px;
+        padding: 28px 36px; } }
   #menu_delice .first {
     margin-bottom: 35px; }
   #menu_delice .second {
@@ -865,6 +875,9 @@ div#main > a {
       #menu_delice li.thirdTitle > img.img-d {
         padding-right: 25px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_delice li.thirdTitle > img.img-d {
+        padding-right: 23px; } }
   #menu_delice li.thirdTitle > img.img-g {
     width: 183px;
     height: 18px;
@@ -875,3 +888,6 @@ div#main > a {
     @media (max-width: 375px) {
       #menu_delice li.thirdTitle > img.img-g {
         height: 16px; } }
+    @media (max-width: 320px) {
+      #menu_delice li.thirdTitle > img.img-g {
+        padding-right: 23px; } }
