@@ -7,24 +7,30 @@
     padding: 0 25px;
     font-family: 'Kalam', cursive;
     box-shadow: 0 0 17px -10px #735F5D;
-/*     h1{
-        text-align: center;
-        font-size: 46px;
-        margin: 76px 0 80px 0;
-        font-family: 'Kaushan Script', cursive;
-        font-weight:normal;
-        @include gradient (#3d923a , #BEFF7F)
-      } */
+    @include lg {
+      height: auto;
+      width:auto;
+      font-size: 9px;
+      margin:54px 44px;
+      padding: 0;
+    }
      li{
         @include setting_li;
         padding: 0 84px;
         margin-bottom: 10px ;
+        @include lg {
+          padding: 0 27px;
+          margin-bottom: 10px;
+        }
       }
      .firstTitle , .secondTitle , .thirdTitle
       {
         font-size: 17px;
         padding:0 29px;
         font-family: 'Kalam', cursive;
+        @include lg {
+          font-size: 14px;
+        }
       }
      ul.title.section>li{
       font-size: 46px;
@@ -33,6 +39,10 @@
       @include gradient (#3d923a , #BEFF7F);
         padding: 53px 144px;
         text-align: center;
+        @include lg {
+          font-size: 24px;
+          padding: 28px 77px;
+        }
       }
      .first {
         margin-bottom: 39px;
@@ -47,6 +57,10 @@
       {
         @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
           transform: scaleX(-1);
+          @include lg {
+            padding-right: 31px;
+            margin-right: 0;
+          }
       }
      li.firstTitle>img.img-g
       {
@@ -56,21 +70,35 @@
       {
         @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
         transform: scaleX(-1);
+        @include lg {
+          padding-right: 9px;
+          margin-right: 0;
+        }
       }
 
      li.secondTitle>img.img-g
       {
-        @include size_decoration_gout ($second-padding_gout , $size-mark_gout)
+        @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
+        @include lg {
+          padding-right: 9px;
+        }
       }
       
      li.thirdTitle>img.img-d
       {
         @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
         transform: scaleX(-1);
+        @include lg {
+          padding-right: 3px;
+          margin-right: 0;
+        }
       }
       
      li.thirdTitle>img.img-g
       {
         @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
+        @include lg {
+          padding-right: 2px;
+        }
       }
   }
