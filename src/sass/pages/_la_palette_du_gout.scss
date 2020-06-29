@@ -18,6 +18,9 @@
       font-size: 7px;
       margin:54px 32px;
     }
+    @include sm {
+      font-size: 6px ;
+    }
      li{
         @include setting_li;
         padding: 0 84px;
@@ -28,6 +31,9 @@
         }
         @include md {
           padding: 0 38px;
+        }
+        @include sm {
+          padding: 0 23px;
         }
       }
      .firstTitle , .secondTitle , .thirdTitle
@@ -40,6 +46,9 @@
         }
         @include md {
           font-size: 10px;
+        }
+        @include sm {
+          padding: 0 11px;
         }
       }
      ul.title.section>li{
@@ -56,6 +65,9 @@
         @include md {
           font-size: 24px;
           padding: 28px 64px;
+        }
+        @include sm {
+          padding: 28px 43px;
         }
       }
      .first {
@@ -75,10 +87,18 @@
             padding-right: 31px;
             margin-right: 0;
           }
+          @include sm {
+            width: 55px;
+            padding-right: 39px;
+          }
       }
      li.firstTitle>img.img-g
       {
         @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
+        @include sm {
+          width: 55px;
+          padding-right: 39px;
+        }
       }
      li.secondTitle>img.img-d
       {
@@ -91,6 +111,10 @@
         @include md {
           padding-right: 16px;
         }
+        @include sm {
+          width: 55px;
+          margin-right: 10px;
+        }
       }
 
      li.secondTitle>img.img-g
@@ -101,6 +125,10 @@
         }
         @include md {
           padding-right: 16px;
+        }
+        @include sm {
+          width: 55px;
+          margin-right: 10px;
         }
       }
       
@@ -115,6 +143,10 @@
         @include md {
           padding-right: 11px;
         }
+        @include sm {
+          width: 55px;
+          margin-right: 10px;
+        }
       }
       
      li.thirdTitle>img.img-g
@@ -125,6 +157,10 @@
         }
         @include md {
           padding-right: 11px;
+        }
+        @include sm {
+          width: 55px;
+          margin-right: 10px;
         }
       }
   }
