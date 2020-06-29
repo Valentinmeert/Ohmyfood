@@ -2,12 +2,18 @@
     width: 156px;
     height: 29px;
     margin-right: $margin;
+    @include lg {
+        width: 62px;
+        }
 }
 
 @mixin size_decoration_right_note ($margin) {
     width: 156px;
     height: 29px;
     margin-left: $margin;
+@include lg {
+    width: 62px;
+    }
 }
 
 @mixin size_decoration_gout ($padding , $size) {

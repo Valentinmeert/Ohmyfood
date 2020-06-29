@@ -7,6 +7,12 @@
     font-size: 14px;
     background-color: #FCDFDB;
     box-shadow: 0 0 17px -10px #735F5D;
+    @include lg {
+      height: auto;
+      width:auto;
+      font-size: 9px;
+      margin:54px 44px;
+    }
     li  {
       @include setting_li;
       padding: 0;
@@ -18,11 +24,17 @@
       font-family: 'Devonshire', cursive;
       font-size: 37px;
       margin-bottom: 12px;
+      @include lg {
+        font-size: 24px;
+      }
     }
     
     .note{
       font-family: 'Devonshire', cursive;
       font-size: 37px;
+      @include lg {
+        font-size: 24px;
+      }
     }
     
     .musicbot
@@ -40,32 +52,48 @@
     li.firstTitle>img.img-g
     {
       @include size_decoration_left_note ($first-margin_note)
+
     }
     
     li.secondTitle>img.img-d
     {
-      @include size_decoration_right_note ($second-margin_note)
+      @include size_decoration_right_note ($second-margin_note);
+      @include lg {
+        margin-left:40px;
+      }
     }
 
     li.secondTitle>img.img-g
     {
-      @include size_decoration_left_note ($second-margin_note)
+      @include size_decoration_left_note ($second-margin_note);
+      @include lg {
+        margin-right:40px;
+      }
     }
     
     li.thirdTitle>img.img-d
     {
-      @include size_decoration_right_note ($third-margin_note)
+      @include size_decoration_right_note ($third-margin_note);
+      @include lg {
+        margin-left:30px;
+      }
     }
     
     li.thirdTitle>img.img-g
     {
-      @include size_decoration_left_note ($third-margin_note)
+      @include size_decoration_left_note ($third-margin_note);
+      @include lg {
+        margin-right:30px;
+      }
     }
     
     .firstTitle , .secondTitle ,.thirdTitle
     {
         font-size: 21px;
         font-weight: bold;
+        @include lg {
+          font-size: 14px;
+        }
     }
     
     .music {
