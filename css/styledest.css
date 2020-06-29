@@ -83,6 +83,10 @@ footer {
   bottom: 0;
   left: 0;
   right: 0; }
+  @media (max-width: 425px) {
+    footer {
+      position: absolute;
+      bottom: -908px; } }
 
 html {
   height: 100%; }
@@ -131,6 +135,11 @@ div#main > a {
   justify-content: center;
   background-color: #F9F9F9;
   padding: 20px; }
+  @media (max-width: 425px) {
+    #main {
+      flex-direction: column;
+      height: auto;
+      width: auto; } }
   #main img {
     padding-top: 86px;
     width: 30px;
@@ -141,6 +150,9 @@ div#main > a {
     margin: 20px;
     box-shadow: 0 0 17px -10px #735F5D;
     transition: transform 400ms; }
+    @media (max-width: 425px) {
+      #main .Card {
+        margin: 48px; } }
     #main .Card:hover {
       transform: scale(1.15); }
   #main .first {

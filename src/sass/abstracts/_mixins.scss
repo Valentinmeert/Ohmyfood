@@ -1,7 +1,7 @@
 @mixin size_decoration_left_note ($margin) {
-      width: 156px;
-      height: 29px;
-      margin-right: $margin;
+    width: 156px;
+    height: 29px;
+    margin-right: $margin;
 }
 
 @mixin size_decoration_right_note ($margin) {
@@ -36,7 +36,13 @@
 
 @mixin setting_li {
     text-align: left;
-      display: flex;
-      flex-direction: row;
-      list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+@mixin lg {
+    @media (max-width: $screen-large-max) {
+        @content;
+    }
 }

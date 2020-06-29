@@ -4,12 +4,22 @@
   justify-content: center;
   background-color: $light_grey;
   padding: 20px;
+  @include lg {
+    flex-direction: column;
+    height: auto;
+    width: auto;
+
+}
   img {
     padding-top: 86px;
     width: 30px;
     height: 30px;
   }
   .Card {
+    @include lg {
+    margin:48px;
+    }
+
     height: 310px;
     width: 220px;
     margin: 20px;
