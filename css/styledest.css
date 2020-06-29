@@ -356,7 +356,7 @@ div#main > a {
     margin-bottom: 10px; }
     @media (max-width: 425px) {
       #menu_gout li {
-        padding: 0 27px;
+        padding: 0 20px;
         margin-bottom: 10px; } }
   #menu_gout .firstTitle, #menu_gout .secondTitle, #menu_gout .thirdTitle {
     font-size: 17px;
