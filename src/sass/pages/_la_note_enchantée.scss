@@ -13,6 +13,10 @@
       font-size: 9px;
       margin:54px 44px;
     }
+    @include md {
+      font-size: 7px;
+      margin:54px 32px;
+    }
     li  {
       @include setting_li;
       padding: 0;
@@ -27,6 +31,10 @@
       @include lg {
         font-size: 24px;
       }
+      @include md {
+        font-size: 18px;
+      }
+
     }
     
     .note{
@@ -34,6 +42,9 @@
       font-size: 37px;
       @include lg {
         font-size: 24px;
+      }
+      @include md {
+        font-size: 18px;
       }
     }
     
@@ -94,13 +105,20 @@
         @include lg {
           font-size: 14px;
         }
+        @include md {
+          font-size: 10px;
+        }
     }
     
     .music {
       width: 60px;
       height: 60px;
       margin-top:11px;
-      margin-bottom: -6px;;
+      margin-bottom: -6px;
+    @include md {
+      width: 30px;
+      height: 30px;
+    }
     }
 
     p {

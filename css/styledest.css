@@ -228,6 +228,10 @@ div#main > a {
       width: auto;
       font-size: 9px;
       margin: 54px 44px; } }
+  @media (max-width: 375px) {
+    #menu_note {
+      font-size: 7px;
+      margin: 54px 32px; } }
   #menu_note li {
     text-align: left;
     display: flex;
@@ -243,12 +247,18 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note .title {
         font-size: 24px; } }
+    @media (max-width: 375px) {
+      #menu_note .title {
+        font-size: 18px; } }
   #menu_note .note {
     font-family: 'Devonshire', cursive;
     font-size: 37px; }
     @media (max-width: 425px) {
       #menu_note .note {
         font-size: 24px; } }
+    @media (max-width: 375px) {
+      #menu_note .note {
+        font-size: 18px; } }
   #menu_note .musicbot {
     width: 22px;
     height: 22px;
@@ -260,6 +270,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.firstTitle > img.img-d {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.firstTitle > img.img-d {
+        font-size: 18px;
+        height: 16px; } }
   #menu_note li.firstTitle > img.img-g {
     width: 156px;
     height: 29px;
@@ -267,6 +281,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.firstTitle > img.img-g {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.firstTitle > img.img-g {
+        font-size: 18px;
+        height: 16px; } }
   #menu_note li.secondTitle > img.img-d {
     width: 156px;
     height: 29px;
@@ -274,6 +292,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-d {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.secondTitle > img.img-d {
+        font-size: 18px;
+        height: 16px; } }
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-d {
         margin-left: 40px; } }
@@ -284,6 +306,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-g {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.secondTitle > img.img-g {
+        font-size: 18px;
+        height: 16px; } }
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-g {
         margin-right: 40px; } }
@@ -294,6 +320,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-d {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.thirdTitle > img.img-d {
+        font-size: 18px;
+        height: 16px; } }
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-d {
         margin-left: 30px; } }
@@ -304,6 +334,10 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-g {
         width: 62px; } }
+    @media (max-width: 375px) {
+      #menu_note li.thirdTitle > img.img-g {
+        font-size: 18px;
+        height: 16px; } }
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-g {
         margin-right: 30px; } }
@@ -313,11 +347,18 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note .firstTitle, #menu_note .secondTitle, #menu_note .thirdTitle {
         font-size: 14px; } }
+    @media (max-width: 375px) {
+      #menu_note .firstTitle, #menu_note .secondTitle, #menu_note .thirdTitle {
+        font-size: 10px; } }
   #menu_note .music {
     width: 60px;
     height: 60px;
     margin-top: 11px;
     margin-bottom: -6px; }
+    @media (max-width: 375px) {
+      #menu_note .music {
+        width: 30px;
+        height: 30px; } }
   #menu_note p {
     margin: 4px 0 0 0;
     padding: 0px; }

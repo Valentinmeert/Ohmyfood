@@ -5,6 +5,10 @@
     @include lg {
         width: 62px;
         }
+        @include md {
+            font-size: 18px;
+            height: 16px;
+        }
 }
 
 @mixin size_decoration_right_note ($margin) {
@@ -13,6 +17,10 @@
     margin-left: $margin;
 @include lg {
     width: 62px;
+    }
+    @include md {
+        font-size: 18px;
+        height: 16px;
     }
 }
 
@@ -61,3 +69,11 @@
         @content;
     }
 }
+
+@mixin md {
+    @media (max-width: $screen-medium-max) {
+        @content;
+    }
+}
+
+
