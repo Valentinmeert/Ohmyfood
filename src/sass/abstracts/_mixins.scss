@@ -20,12 +20,18 @@
     width: $size;
     height: 10px;
     padding-right: $padding;
+    @include lg {
+        width: 62px;
+        }
 }
 
 @mixin size_decoration_chic ($margin , $size) {
     width : $size;
     height: 18px;
     margin-right: $margin;
+    @include lg {
+        width: 75px;
+        }
 }
 
 @mixin size_decoration_delice ($padding , $size) {

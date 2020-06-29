@@ -6,12 +6,19 @@
     font-size: 14px;
     background-color: #FFF5FE;
     box-shadow: 0 0 17px -10px #735F5D;
-    
-
+    @include lg {
+      height: auto;
+      width:auto;
+      font-size: 9px;
+      margin:54px 44px;
+    }
     li  {
       @include setting_li;
       padding: 0 91px;
       margin-bottom: 13px ;
+      @include lg {
+        padding: 0 27px;
+      }
     }
 
     .firstTitle ,  .secondTitle , .thirdTitle
@@ -20,6 +27,9 @@
     font-weight: bold;
     padding:0 5px;
     margin-bottom: 12px;
+    @include lg {
+      font-size: 14px;
+    }
   }
   
    .first {
@@ -51,6 +61,10 @@
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
     transform: rotate(0.5turn);
+    @include lg {
+      padding-right: 24px;
+      margin-right: 0;
+    }
   }
    li.secondTitle>img.img-g
   {
@@ -61,6 +75,10 @@
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
     transform: rotate(0.5turn);
+    @include lg {
+      padding-right: 10px;
+      margin-right: 0;
+    }
   }
   
    li.thirdTitle>img.img-g
@@ -79,6 +97,10 @@
     text-align: center;
     font-weight: bold;
     @include gradient (#e38a12 , #a67afd);
+    @include lg {
+      font-size: 24px;
+      padding: 28px 54px;
+    }
   }
   
   }

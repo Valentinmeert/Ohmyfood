@@ -379,28 +379,46 @@ div#main > a {
     height: 10px;
     padding-right: 39px;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.firstTitle > img.img-d {
+        width: 62px; } }
   #menu_gout li.firstTitle > img.img-g {
     width: 200px;
     height: 10px;
     padding-right: 39px; }
+    @media (max-width: 425px) {
+      #menu_gout li.firstTitle > img.img-g {
+        width: 62px; } }
   #menu_gout li.secondTitle > img.img-d {
     width: 200px;
     height: 10px;
     padding-right: 14px;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.secondTitle > img.img-d {
+        width: 62px; } }
   #menu_gout li.secondTitle > img.img-g {
     width: 200px;
     height: 10px;
     padding-right: 14px; }
+    @media (max-width: 425px) {
+      #menu_gout li.secondTitle > img.img-g {
+        width: 62px; } }
   #menu_gout li.thirdTitle > img.img-d {
     width: 200px;
     height: 10px;
     padding-right: 7px;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.thirdTitle > img.img-d {
+        width: 62px; } }
   #menu_gout li.thirdTitle > img.img-g {
     width: 200px;
     height: 10px;
     padding-right: 7px; }
+    @media (max-width: 425px) {
+      #menu_gout li.thirdTitle > img.img-g {
+        width: 62px; } }
 
 #menu_chic {
   flex-direction: column;
@@ -409,6 +427,12 @@ div#main > a {
   font-size: 14px;
   background-color: #FFF5FE;
   box-shadow: 0 0 17px -10px #735F5D; }
+  @media (max-width: 425px) {
+    #menu_chic {
+      height: auto;
+      width: auto;
+      font-size: 9px;
+      margin: 54px 44px; } }
   #menu_chic li {
     text-align: left;
     display: flex;
@@ -416,11 +440,17 @@ div#main > a {
     list-style-type: none;
     padding: 0 91px;
     margin-bottom: 13px; }
+    @media (max-width: 425px) {
+      #menu_chic li {
+        padding: 0 27px; } }
   #menu_chic .firstTitle, #menu_chic .secondTitle, #menu_chic .thirdTitle {
     font-size: 15px;
     font-weight: bold;
     padding: 0 5px;
     margin-bottom: 12px; }
+    @media (max-width: 425px) {
+      #menu_chic .firstTitle, #menu_chic .secondTitle, #menu_chic .thirdTitle {
+        font-size: 14px; } }
   #menu_chic .first {
     margin-bottom: 42px;
     color: #c67412; }
@@ -435,28 +465,54 @@ div#main > a {
     height: 18px;
     margin-right: 2px;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.firstTitle > img.img-d {
+        width: 75px; } }
   #menu_chic li.firstTitle > img.img-g {
     width: 212px;
     height: 18px;
     margin-right: 2px; }
+    @media (max-width: 425px) {
+      #menu_chic li.firstTitle > img.img-g {
+        width: 75px; } }
   #menu_chic li.secondTitle > img.img-d {
     width: 212px;
     height: 18px;
     margin-right: 21px;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.secondTitle > img.img-d {
+        width: 75px; } }
+    @media (max-width: 425px) {
+      #menu_chic li.secondTitle > img.img-d {
+        padding-right: 24px;
+        margin-right: 0; } }
   #menu_chic li.secondTitle > img.img-g {
     width: 212px;
     height: 18px;
     margin-right: 21px; }
+    @media (max-width: 425px) {
+      #menu_chic li.secondTitle > img.img-g {
+        width: 75px; } }
   #menu_chic li.thirdTitle > img.img-d {
     width: 212px;
     height: 18px;
     margin-right: 9px;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.thirdTitle > img.img-d {
+        width: 75px; } }
+    @media (max-width: 425px) {
+      #menu_chic li.thirdTitle > img.img-d {
+        padding-right: 10px;
+        margin-right: 0; } }
   #menu_chic li.thirdTitle > img.img-g {
     width: 212px;
     height: 18px;
     margin-right: 9px; }
+    @media (max-width: 425px) {
+      #menu_chic li.thirdTitle > img.img-g {
+        width: 75px; } }
   #menu_chic .titlesection {
     justify-content: center; }
   #menu_chic ul.title.section > li {
@@ -468,6 +524,10 @@ div#main > a {
     background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
+    @media (max-width: 425px) {
+      #menu_chic ul.title.section > li {
+        font-size: 24px;
+        padding: 28px 54px; } }
 
 #menu_delice {
   flex-direction: column;
