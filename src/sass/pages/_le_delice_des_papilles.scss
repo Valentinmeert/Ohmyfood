@@ -19,6 +19,7 @@
         margin-bottom: 6px ;
         @include lg {
           padding: 0 27px;
+          margin-bottom: 10px;
         }
       }
     .firstTitle ,.secondTitle ,.thirdTitle
@@ -54,9 +55,15 @@
       }
 
       @include lg {
-        .third {
-          margin-bottom: 30px;
-        }
+        .first {
+          margin-bottom: 42px;
+      }
+      .second{
+          margin-bottom: 43px;
+      }
+      .third {
+          margin-bottom: 25px;
+      }
         }
       
     li.firstTitle>img.img-d
