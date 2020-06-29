@@ -38,6 +38,9 @@
     width : $size;
     height: 18px;
     padding-right: $padding;
+    @include lg {
+        width: 60px;
+        }
 }
 
 @mixin gradient ($start_color , $end-color) {
