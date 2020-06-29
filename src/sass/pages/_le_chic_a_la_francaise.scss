@@ -12,12 +12,19 @@
       font-size: 9px;
       margin:54px 44px;
     }
+    @include md {
+      font-size: 7px;
+      margin:54px 32px;
+    }
     li  {
       @include setting_li;
       padding: 0 91px;
       margin-bottom: 13px ;
       @include lg {
         padding: 0 27px;
+      }
+      @include md {
+        padding: 0 20px;
       }
     }
 
@@ -29,6 +36,9 @@
     margin-bottom: 12px;
     @include lg {
       font-size: 14px;
+    }
+    @include md {
+      font-size: 10px;
     }
   }
   
@@ -51,10 +61,17 @@
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
     transform: rotate(0.5turn);
+    @include md {
+      padding-right: 17px;
+      margin-right: 0;
+    }
   }
    li.firstTitle>img.img-g
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
+    @include md {
+      margin-right: 17px;
+    }
   }
   
    li.secondTitle>img.img-d
@@ -65,10 +82,18 @@
       padding-right: 24px;
       margin-right: 0;
     }
+    @include md {
+      padding-right: 32px;
+      margin-right: 0;
+    }
   }
    li.secondTitle>img.img-g
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
+    @include md {
+      padding-right: 32px;
+      margin-right: 0;
+    }
   }
   
    li.thirdTitle>img.img-d
@@ -79,11 +104,20 @@
       padding-right: 10px;
       margin-right: 0;
     }
+    @include md {
+      padding-right: 23px;
+      margin-right: 0;
+    }
+    
   }
   
    li.thirdTitle>img.img-g
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
+    @include md {
+      padding-right: 23px;
+      margin-right: 0;
+    }
   }
   
    .titlesection{
@@ -100,6 +134,10 @@
     @include lg {
       font-size: 24px;
       padding: 28px 54px;
+    }
+    @include md {
+      font-size: 24px;
+      padding: 28px 41px;
     }
   }
   
