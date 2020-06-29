@@ -31,6 +31,9 @@
     @include lg {
         width: 80px;
         }
+        @include md {
+            height: 16px;
+        }
 }
 
 @mixin size_decoration_chic ($margin , $size) {
@@ -48,6 +51,9 @@
     padding-right: $padding;
     @include lg {
         width: 60px;
+        }
+        @include md {
+            height: 16px;
         }
 }
 

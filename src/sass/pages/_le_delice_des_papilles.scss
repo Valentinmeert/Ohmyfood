@@ -12,6 +12,10 @@
       font-size: 9px;
       margin:54px 44px;
     }
+    @include md {
+      font-size: 7px;
+      margin:54px 32px;
+    }
 
     li{
         @include setting_li;
@@ -20,6 +24,9 @@
         @include lg {
           padding: 0 27px;
           margin-bottom: 10px;
+        }
+        @include md {
+          padding: 0 38px;
         }
       }
     .firstTitle ,.secondTitle ,.thirdTitle
@@ -30,6 +37,9 @@
           padding:0 29px;
           @include lg {
             font-size: 14px;
+          }
+          @include md {
+            font-size: 10px;
           }
       }
       
@@ -43,6 +53,10 @@
           @include lg {
             font-size: 24px;
             padding: 28px 77px;
+          }
+          @include md {
+            font-size: 24px;
+            padding: 28px 64px;
           }
       }
       

@@ -14,6 +14,10 @@
       margin:54px 44px;
       padding: 0;
     }
+    @include md {
+      font-size: 7px;
+      margin:54px 32px;
+    }
      li{
         @include setting_li;
         padding: 0 84px;
@@ -21,6 +25,9 @@
         @include lg {
           padding: 0 20px;
           margin-bottom: 10px;
+        }
+        @include md {
+          padding: 0 38px;
         }
       }
      .firstTitle , .secondTitle , .thirdTitle
@@ -30,6 +37,9 @@
         font-family: 'Kalam', cursive;
         @include lg {
           font-size: 14px;
+        }
+        @include md {
+          font-size: 10px;
         }
       }
      ul.title.section>li{
@@ -42,6 +52,10 @@
         @include lg {
           font-size: 24px;
           padding: 28px 77px;
+        }
+        @include md {
+          font-size: 24px;
+          padding: 28px 64px;
         }
       }
      .first {
@@ -74,6 +88,9 @@
           padding-right: 9px;
           margin-right: 0;
         }
+        @include md {
+          padding-right: 16px;
+        }
       }
 
      li.secondTitle>img.img-g
@@ -81,6 +98,9 @@
         @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
         @include lg {
           padding-right: 9px;
+        }
+        @include md {
+          padding-right: 16px;
         }
       }
       
@@ -92,6 +112,9 @@
           padding-right: 3px;
           margin-right: 0;
         }
+        @include md {
+          padding-right: 11px;
+        }
       }
       
      li.thirdTitle>img.img-g
@@ -99,6 +122,9 @@
         @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
         @include lg {
           padding-right: 2px;
+        }
+        @include md {
+          padding-right: 11px;
         }
       }
   }
