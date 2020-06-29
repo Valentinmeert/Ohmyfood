@@ -8,8 +8,10 @@
     flex-direction: column;
     height: auto;
     width: auto;
-
-}
+  }
+  @include sm {
+    padding: 0;
+  }
   img {
     padding-top: 86px;
     width: 30px;

@@ -82,4 +82,10 @@
     }
 }
 
+@mixin sm {
+    @media (max-width: $screen-small-max) {
+        @content;
+    }
+}
+
 

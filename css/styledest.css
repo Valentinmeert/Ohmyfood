@@ -83,6 +83,9 @@ footer {
   bottom: 0;
   left: 0;
   right: 0; }
+  @media (max-width: 320px) {
+    footer {
+      font-size: 12px; } }
 
 html {
   height: 100%; }
@@ -140,6 +143,9 @@ div#main > a {
       flex-direction: column;
       height: auto;
       width: auto; } }
+  @media (max-width: 320px) {
+    #main {
+      padding: 0; } }
   #main img {
     padding-top: 86px;
     width: 30px;
@@ -274,6 +280,9 @@ div#main > a {
       #menu_note li.firstTitle > img.img-d {
         font-size: 18px;
         height: 16px; } }
+    @media (max-width: 320px) {
+      #menu_note li.firstTitle > img.img-d {
+        margin-left: 30px; } }
   #menu_note li.firstTitle > img.img-g {
     width: 156px;
     height: 29px;
@@ -285,6 +294,9 @@ div#main > a {
       #menu_note li.firstTitle > img.img-g {
         font-size: 18px;
         height: 16px; } }
+    @media (max-width: 320px) {
+      #menu_note li.firstTitle > img.img-g {
+        margin-right: 30px; } }
   #menu_note li.secondTitle > img.img-d {
     width: 156px;
     height: 29px;
@@ -299,6 +311,9 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-d {
         margin-left: 40px; } }
+    @media (max-width: 320px) {
+      #menu_note li.secondTitle > img.img-d {
+        margin-left: 30px; } }
   #menu_note li.secondTitle > img.img-g {
     width: 156px;
     height: 29px;
@@ -313,6 +328,9 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.secondTitle > img.img-g {
         margin-right: 40px; } }
+    @media (max-width: 320px) {
+      #menu_note li.secondTitle > img.img-g {
+        margin-right: 18px; } }
   #menu_note li.thirdTitle > img.img-d {
     width: 156px;
     height: 29px;
@@ -327,6 +345,9 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-d {
         margin-left: 30px; } }
+    @media (max-width: 320px) {
+      #menu_note li.thirdTitle > img.img-d {
+        margin-left: 17px; } }
   #menu_note li.thirdTitle > img.img-g {
     width: 156px;
     height: 29px;
@@ -341,6 +362,9 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li.thirdTitle > img.img-g {
         margin-right: 30px; } }
+    @media (max-width: 320px) {
+      #menu_note li.thirdTitle > img.img-g {
+        margin-right: 12px; } }
   #menu_note .firstTitle, #menu_note .secondTitle, #menu_note .thirdTitle {
     font-size: 21px;
     font-weight: bold; }
