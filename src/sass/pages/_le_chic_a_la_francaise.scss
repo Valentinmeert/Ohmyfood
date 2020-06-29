@@ -65,12 +65,20 @@
       padding-right: 17px;
       margin-right: 0;
     }
+    @include sm {
+      width: 55px;
+      padding-right: 10px;
+    }
   }
    li.firstTitle>img.img-g
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
     @include md {
       margin-right: 17px;
+    }
+    @include sm {
+      width: 55px;
+      margin-right: 10px;
     }
   }
   
@@ -86,6 +94,10 @@
       padding-right: 32px;
       margin-right: 0;
     }
+    @include sm {
+      width: 55px;
+      padding-right: 24px;
+    }
   }
    li.secondTitle>img.img-g
   {
@@ -93,6 +105,10 @@
     @include md {
       padding-right: 32px;
       margin-right: 0;
+    }
+    @include sm {
+      width: 55px;
+      padding-right: 25px;
     }
   }
   
@@ -108,7 +124,10 @@
       padding-right: 23px;
       margin-right: 0;
     }
-    
+    @include sm {
+      width: 55px;
+      padding-right: 15px;
+    }
   }
   
    li.thirdTitle>img.img-g
@@ -117,6 +136,10 @@
     @include md {
       padding-right: 23px;
       margin-right: 0;
+    }
+    @include sm {
+      width: 55px;
+      padding-right: 16px;
     }
   }
   
@@ -138,6 +161,10 @@
     @include md {
       font-size: 24px;
       padding: 28px 41px;
+    }
+    @include sm {
+      font-size: 24px;
+      padding: 28px 11px;
     }
   }
   

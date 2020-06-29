@@ -92,6 +92,9 @@ html {
 
 h1 {
   margin: 5px  auto; }
+  @media (max-width: 320px) {
+    h1 {
+      font-size: 1em; } }
 
 body {
   background-color: #F9F9F9;
@@ -619,6 +622,10 @@ div#main > a {
       #menu_chic li.firstTitle > img.img-d {
         padding-right: 17px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_chic li.firstTitle > img.img-d {
+        width: 55px;
+        padding-right: 10px; } }
   #menu_chic li.firstTitle > img.img-g {
     width: 212px;
     height: 18px;
@@ -629,6 +636,10 @@ div#main > a {
     @media (max-width: 375px) {
       #menu_chic li.firstTitle > img.img-g {
         margin-right: 17px; } }
+    @media (max-width: 320px) {
+      #menu_chic li.firstTitle > img.img-g {
+        width: 55px;
+        margin-right: 10px; } }
   #menu_chic li.secondTitle > img.img-d {
     width: 212px;
     height: 18px;
@@ -645,6 +656,10 @@ div#main > a {
       #menu_chic li.secondTitle > img.img-d {
         padding-right: 32px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_chic li.secondTitle > img.img-d {
+        width: 55px;
+        padding-right: 24px; } }
   #menu_chic li.secondTitle > img.img-g {
     width: 212px;
     height: 18px;
@@ -656,6 +671,10 @@ div#main > a {
       #menu_chic li.secondTitle > img.img-g {
         padding-right: 32px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_chic li.secondTitle > img.img-g {
+        width: 55px;
+        padding-right: 25px; } }
   #menu_chic li.thirdTitle > img.img-d {
     width: 212px;
     height: 18px;
@@ -672,6 +691,10 @@ div#main > a {
       #menu_chic li.thirdTitle > img.img-d {
         padding-right: 23px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_chic li.thirdTitle > img.img-d {
+        width: 55px;
+        padding-right: 15px; } }
   #menu_chic li.thirdTitle > img.img-g {
     width: 212px;
     height: 18px;
@@ -683,6 +706,10 @@ div#main > a {
       #menu_chic li.thirdTitle > img.img-g {
         padding-right: 23px;
         margin-right: 0; } }
+    @media (max-width: 320px) {
+      #menu_chic li.thirdTitle > img.img-g {
+        width: 55px;
+        padding-right: 16px; } }
   #menu_chic .titlesection {
     justify-content: center; }
   #menu_chic ul.title.section > li {
@@ -702,6 +729,10 @@ div#main > a {
       #menu_chic ul.title.section > li {
         font-size: 24px;
         padding: 28px 41px; } }
+    @media (max-width: 320px) {
+      #menu_chic ul.title.section > li {
+        font-size: 24px;
+        padding: 28px 11px; } }
 
 #menu_delice {
   flex-direction: column;

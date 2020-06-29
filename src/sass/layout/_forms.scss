@@ -4,6 +4,9 @@ html{
 
 h1{
   margin : 5px  auto;
+  @include sm {
+    font-size: 1em;
+  }
 }
 
 body {
