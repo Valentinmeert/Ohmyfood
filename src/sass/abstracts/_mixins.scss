@@ -30,16 +30,16 @@
     height: 1.8vh;
     padding-right: $margin;
     @include lg {
-        height: 1.7vh;
+        height: 1vh;
     }
 }
 
 @mixin size_decoration_delice ($padding , $size) {
     width : $size;
-    height: 18px;
+    height: 1.8vh;
     padding-right: $padding;
     @include lg {
-        height: 1.7vh;
+        height: 1vh;
     }
 }
 
