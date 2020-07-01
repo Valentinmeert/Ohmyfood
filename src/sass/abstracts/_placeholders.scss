@@ -1,8 +1,10 @@
 .typography {
-  margin: auto;
+  margin: 2vw auto 4vw auto;
   width: 613px;
   display: flex;
-  height: 730px;
-  flex-wrap: wrap;
-  /* padding: 20px; */
+  height: 116vw;
+  @include tab {
+    width: 80%;
+  }
+
 }

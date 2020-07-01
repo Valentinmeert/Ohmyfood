@@ -4,6 +4,7 @@
   justify-content: center;
   background-color: $light_grey;
   padding: 20px;
+  flex-wrap: wrap;
   @include lg {
     flex-direction: column;
     height: auto;
