@@ -246,15 +246,21 @@ div#main > a {
     margin-bottom: 6px; }
   #menu_note .title > li {
     font-family: 'Devonshire', cursive;
-    font-size: 2.9vw;
+    font-size: 55px;
     margin-bottom: 12px;
     padding: 0; }
+    @media (max-width: 768px) {
+      #menu_note .title > li {
+        font-size: 5.8vw; } }
   #menu_note .note {
     font-family: 'Devonshire', cursive;
-    font-size: 2.9vw; }
+    font-size: 55px; }
+    @media (max-width: 768px) {
+      #menu_note .note {
+        font-size: 5.8vw; } }
   #menu_note .musicbot {
-    width: 2vw;
-    height: 2vw;
+    width: 3vw;
+    height: 3vw;
     margin-right: 5px; }
   #menu_note li.firstTitle > img.img-d {
     width: 30%;
@@ -370,14 +376,14 @@ div#main > a {
     margin-bottom: 2.5vw; }
   #menu_gout li.firstTitle > img.img-d {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 8%; }
     @media (max-width: 425px) {
       #menu_gout li.firstTitle > img.img-d {
         height: 1.7vh; } }
   #menu_gout li.firstTitle > img.img-g {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 8%;
     transform: scaleX(-1); }
     @media (max-width: 425px) {
@@ -385,14 +391,14 @@ div#main > a {
         height: 1.7vh; } }
   #menu_gout li.secondTitle > img.img-d {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 3%; }
     @media (max-width: 425px) {
       #menu_gout li.secondTitle > img.img-d {
         height: 1.7vh; } }
   #menu_gout li.secondTitle > img.img-g {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 3%;
     transform: scaleX(-1); }
     @media (max-width: 425px) {
@@ -400,14 +406,14 @@ div#main > a {
         height: 1.7vh; } }
   #menu_gout li.thirdTitle > img.img-d {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 2%; }
     @media (max-width: 425px) {
       #menu_gout li.thirdTitle > img.img-d {
         height: 1.7vh; } }
   #menu_gout li.thirdTitle > img.img-g {
     width: 30%;
-    height: 2.9vh;
+    height: 1.8vh;
     padding-left: 2%;
     transform: scaleX(-1); }
     @media (max-width: 425px) {

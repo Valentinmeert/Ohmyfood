@@ -19,20 +19,26 @@
     
     .title>li {
       font-family: 'Devonshire', cursive;
-      font-size: 2.9vw;
+      font-size: 55px;
       margin-bottom: 12px;
       padding: 0;
+      @include tab {
+        font-size: 5.8vw;
+      }
     }
     
     .note{
       font-family: 'Devonshire', cursive;
-      font-size: 2.9vw;
+      font-size: 55px;
+      @include tab {
+        font-size: 5.8vw;
+      }
     }
     
     .musicbot
     {
-      width: 2vw;
-      height: 2vw;
+      width: 3vw;
+      height: 3vw;
       margin-right:5px;
     }
     

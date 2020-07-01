@@ -18,7 +18,7 @@
 
 @mixin size_decoration_gout ($padding , $size) {
     width: $size;
-    height: 2.9vh;
+    height: 1.8vh;
     @include lg {
         height: 1.7vh;
     }
