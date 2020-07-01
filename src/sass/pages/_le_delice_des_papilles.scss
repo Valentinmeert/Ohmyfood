@@ -6,31 +6,13 @@
     background-color: #FFF5FE;
     font-family: 'Kalam', cursive;
     box-shadow: 0 0 17px -10px #735F5D;
-    @include lg {
-      height: auto;
-      width:auto;
-      font-size: 9px;
-      margin:54px 44px;
+    @include tab {
+      font-size: 1.7vw;
     }
-    @include md {
-      font-size: 7px;
-      margin:54px 32px;
-    }
-
     li{
         @include setting_li;
-        padding: 0 92px;
+        padding: 0 12%;
         margin-bottom: 6px ;
-        @include lg {
-          padding: 0 27px;
-          margin-bottom: 10px;
-        }
-        @include md {
-          padding: 0 38px;
-        }
-        @include sm {
-          padding:0 19px;
-        }
       }
     .firstTitle ,.secondTitle ,.thirdTitle
       {
@@ -38,14 +20,8 @@
           font-size: 17px;
           font-weight: normal;
           padding:0 29px;
-          @include lg {
-            font-size: 14px;
-          }
-          @include md {
-            font-size: 10px;
-          }
-          @include sm {
-            padding:0 5px;
+          @include tab {
+            font-size:1.8vw;
           }
       }
       
@@ -54,42 +30,21 @@
       font-family: 'Dancing Script', serif;
       font-weight: bold;
       @include gradient (#102FBD , #178FFB);
-          padding: 65px 109px;
+          padding: 6% 0;
           text-align: center;
-          @include lg {
-            font-size: 24px;
-            padding: 28px 77px;
-          }
-          @include md {
-            font-size: 24px;
-            padding: 28px 64px;
-          }
-          @include sm {
-            font-size: 24px;
-            padding: 28px 36px;
+          @include tab {
+            font-size:4vw;
           }
       }
       
     .first {
-          margin-bottom: 35px;
+          margin-bottom: 2.5vw;
       }
       
     .second{
-          margin-bottom: 30px;
+          margin-bottom: 2.5vw;
       }
 
-      @include lg {
-        .first {
-          margin-bottom: 42px;
-      }
-      .second{
-          margin-bottom: 43px;
-      }
-      .third {
-          margin-bottom: 25px;
-      }
-        }
-      
     li.firstTitle>img.img-d
       {
         @include size_decoration_delice ($first-padding_delice , $size-mark_delice);
@@ -105,10 +60,6 @@
       {
         @include size_decoration_delice ($second-padding_delice , $size-mark_delice);
           transform: scaleX(-1);
-          @include lg {
-            padding-right: 22px;
-            margin-right: 0;
-          }
       }
     li.secondTitle>img.img-g
       {
@@ -119,21 +70,11 @@
       {
         @include size_decoration_delice ($third-padding_delice , $size-mark_delice);
           transform: scaleX(-1);
-          @include lg {
-            padding-right: 25px;
-            margin-right: 0;
-          }
-          @include sm {
-            padding-right: 23px;
-          }
       }
       
     li.thirdTitle>img.img-g
       {
         @include size_decoration_delice ($third-padding_delice , $size-mark_delice);
-        @include sm {
-          padding-right: 23px;
-        }
       }
   }
 

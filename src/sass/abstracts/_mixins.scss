@@ -1,41 +1,24 @@
 @mixin size_decoration_left_note ($margin) {
-    width: 156px;
-    height: 29px;
+    width: 30%;
+    height: 2.1vw;
     margin-right: $margin;
-    @include lg {
-        width: 62px;
-        }
-        @include md {
-            font-size: 18px;
-            height: 16px;
-        }
 }
 
 @mixin size_decoration_right_note ($margin) {
-    width: 156px;
-    height: 29px;
+    width: 30%;
+    height: 2.1vw;
     margin-left: $margin;
-@include lg {
-    width: 62px;
-    }
-    @include md {
-        font-size: 18px;
-        height: 16px;
-    }
 }
 
 @mixin size_decoration_gout ($padding , $size) {
     width: $size;
     height: 19px;
     padding-left: $padding;
-        @include md {
-            height: 16px;
-        }
 }
 
 @mixin size_decoration_chic ($margin , $size) {
     width : $size;
-    height: 18px;
+    height: 1vw;
     padding-right: $margin;
 }
 
@@ -43,12 +26,6 @@
     width : $size;
     height: 18px;
     padding-right: $padding;
-    @include lg {
-        width: 60px;
-        }
-        @include md {
-            height: 16px;
-        }
 }
 
 @mixin gradient ($start_color , $end-color) {

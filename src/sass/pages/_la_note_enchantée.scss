@@ -7,46 +7,26 @@
     font-size: 14px;
     background-color: #FCDFDB;
     box-shadow: 0 0 17px -10px #735F5D;
-    @include lg {
-      height: auto;
-      width:auto;
-      font-size: 9px;
-      margin:54px 44px;
-    }
-    @include md {
-      font-size: 7px;
-      margin:54px 32px;
+    @include tab {
+      font-size: 1.7vw;
     }
 
     li  {
       @include setting_li;
-      padding: 0;
-      margin: 0;
+      padding: 0 7%;
       margin-bottom: 6px ;
     }
     
-    .title {
+    .title>li {
       font-family: 'Devonshire', cursive;
-      font-size: 37px;
+      font-size: 2.9vw;
       margin-bottom: 12px;
-      @include lg {
-        font-size: 24px;
-      }
-      @include md {
-        font-size: 18px;
-      }
-
+      padding: 0;
     }
     
     .note{
       font-family: 'Devonshire', cursive;
-      font-size: 37px;
-      @include lg {
-        font-size: 24px;
-      }
-      @include md {
-        font-size: 18px;
-      }
+      font-size: 2.9vw;
     }
     
     .musicbot
@@ -59,85 +39,49 @@
     li.firstTitle>img.img-d
     {
       @include size_decoration_right_note ($first-margin_note);
-      @include sm {
-        margin-left:30px;
-      }
     }
 
     li.firstTitle>img.img-g
     {
       @include size_decoration_left_note ($first-margin_note);
-      @include sm {
-        margin-right:30px;
-      }
-
     }
     
     li.secondTitle>img.img-d
     {
       @include size_decoration_right_note ($second-margin_note);
-      @include lg {
-        margin-left:40px;
-      }
-      @include sm {
-        margin-left:30px;
-      }
     }
 
     li.secondTitle>img.img-g
     {
       @include size_decoration_left_note ($second-margin_note);
-      @include lg {
-        margin-right:40px;
-      }
-      @include sm {
-        margin-right:18px;
-      }
     }
     
     li.thirdTitle>img.img-d
     {
       @include size_decoration_right_note ($third-margin_note);
-      @include lg {
-        margin-left:30px;
-      }
-      @include sm {
-        margin-left:17px;
-      }
     }
     
     li.thirdTitle>img.img-g
     {
       @include size_decoration_left_note ($third-margin_note);
-      @include lg {
-        margin-right:30px;
-      }
-      @include sm {
-        margin-right:12px;
-      }
     }
     
     .firstTitle , .secondTitle ,.thirdTitle
     {
         font-size: 21px;
         font-weight: bold;
-        @include lg {
-          font-size: 14px;
-        }
-        @include md {
-          font-size: 10px;
+        padding:0 1%;
+        margin-bottom: 12px;
+        @include tab {
+          font-size:1.8vw;
         }
     }
     
     .music {
-      width: 60px;
-      height: 60px;
+      width: 4vw;
+      height: 4vw;
       margin-top:11px;
       margin-bottom: -6px;
-    @include md {
-      width: 30px;
-      height: 30px;
-    }
     }
 
     p {
@@ -152,15 +96,15 @@
     }
     
     .first {
-      margin-bottom: 18px;
+      margin-bottom: 2.5vw;
     }
     
     .second{
-      margin-bottom: 15px;
+      margin-bottom: 2.5vw;
     }
     
     .third{
-      margin-bottom: 25px;
+      margin-bottom: 2.5vw;
     }
   }
 

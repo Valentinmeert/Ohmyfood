@@ -11,7 +11,7 @@
     }
     li  {
       @include setting_li;
-      padding: 0 8%;
+      padding: 0 13%;
       margin-bottom: 10px;
     }
 
@@ -45,25 +45,10 @@
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
     transform: rotate(0.5turn);
-    @include md {
-      padding-right: 17px;
-      margin-right: 0;
-    }
-    @include sm {
-      width: 55px;
-      padding-right: 10px;
-    }
   }
    li.firstTitle>img.img-g
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
-    @include md {
-      margin-right: 17px;
-    }
-    @include sm {
-      width: 55px;
-      margin-right: 10px;
-    }
   }
   
    li.secondTitle>img.img-d
