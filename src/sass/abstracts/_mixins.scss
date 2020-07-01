@@ -1,18 +1,27 @@
 @mixin size_decoration_left_note ($margin) {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-right: $margin;
+    @include lg {
+        height: 1.8vh;
+    }
 }
 
 @mixin size_decoration_right_note ($margin) {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-left: $margin;
+    @include lg {
+        height: 1.8vh;
+    }
 }
 
 @mixin size_decoration_gout ($padding , $size) {
     width: $size;
-    height: 19px;
+    height: 2.9vh;
+    @include lg {
+        height: 1.7vh;
+    }
     padding-left: $padding;
 }
 
@@ -20,12 +29,18 @@
     width : $size;
     height: 1vw;
     padding-right: $margin;
+    @include lg {
+        height: 1.7vh;
+    }
 }
 
 @mixin size_decoration_delice ($padding , $size) {
     width : $size;
     height: 18px;
     padding-right: $padding;
+    @include lg {
+        height: 1.7vh;
+    }
 }
 
 @mixin gradient ($start_color , $end-color) {

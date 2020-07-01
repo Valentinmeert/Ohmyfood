@@ -49,7 +49,7 @@ i::after {
   display: block;
   height: 2px;
   width: 0%;
-  margin-bottom: 9px;
+  /*   margin-bottom: 9px; */
   background-color: #000;
   transition: width 0.4s; }
 
@@ -253,33 +253,51 @@ div#main > a {
     font-family: 'Devonshire', cursive;
     font-size: 2.9vw; }
   #menu_note .musicbot {
-    width: 22px;
-    height: 22px;
+    width: 2vw;
+    height: 2vw;
     margin-right: 5px; }
   #menu_note li.firstTitle > img.img-d {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-left: 8%; }
+    @media (max-width: 425px) {
+      #menu_note li.firstTitle > img.img-d {
+        height: 1.8vh; } }
   #menu_note li.firstTitle > img.img-g {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-right: 8%; }
+    @media (max-width: 425px) {
+      #menu_note li.firstTitle > img.img-g {
+        height: 1.8vh; } }
   #menu_note li.secondTitle > img.img-d {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-left: 5%; }
+    @media (max-width: 425px) {
+      #menu_note li.secondTitle > img.img-d {
+        height: 1.8vh; } }
   #menu_note li.secondTitle > img.img-g {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-right: 5%; }
+    @media (max-width: 425px) {
+      #menu_note li.secondTitle > img.img-g {
+        height: 1.8vh; } }
   #menu_note li.thirdTitle > img.img-d {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-left: 4%; }
+    @media (max-width: 425px) {
+      #menu_note li.thirdTitle > img.img-d {
+        height: 1.8vh; } }
   #menu_note li.thirdTitle > img.img-g {
     width: 30%;
-    height: 2.1vw;
+    height: 2.5vh;
     margin-right: 4%; }
+    @media (max-width: 425px) {
+      #menu_note li.thirdTitle > img.img-g {
+        height: 1.8vh; } }
   #menu_note .firstTitle, #menu_note .secondTitle, #menu_note .thirdTitle {
     font-size: 21px;
     font-weight: bold;
@@ -287,7 +305,7 @@ div#main > a {
     margin-bottom: 12px; }
     @media (max-width: 768px) {
       #menu_note .firstTitle, #menu_note .secondTitle, #menu_note .thirdTitle {
-        font-size: 1.8vw; } }
+        font-size: 2.5vw; } }
   #menu_note .music {
     width: 4vw;
     height: 4vw;
@@ -352,31 +370,49 @@ div#main > a {
     margin-bottom: 2.5vw; }
   #menu_gout li.firstTitle > img.img-d {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 8%; }
+    @media (max-width: 425px) {
+      #menu_gout li.firstTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_gout li.firstTitle > img.img-g {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 8%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.firstTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_gout li.secondTitle > img.img-d {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 3%; }
+    @media (max-width: 425px) {
+      #menu_gout li.secondTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_gout li.secondTitle > img.img-g {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 3%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.secondTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_gout li.thirdTitle > img.img-d {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 2%; }
+    @media (max-width: 425px) {
+      #menu_gout li.thirdTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_gout li.thirdTitle > img.img-g {
     width: 30%;
-    height: 19px;
+    height: 2.9vh;
     padding-left: 2%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_gout li.thirdTitle > img.img-g {
+        height: 1.7vh; } }
 
 #menu_chic {
   flex-direction: column;
@@ -418,28 +454,46 @@ div#main > a {
     height: 1vw;
     padding-right: 1%;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.firstTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_chic li.firstTitle > img.img-g {
     width: 30%;
     height: 1vw;
     padding-right: 1%; }
+    @media (max-width: 425px) {
+      #menu_chic li.firstTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_chic li.secondTitle > img.img-d {
     width: 30%;
     height: 1vw;
     padding-right: 4%;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.secondTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_chic li.secondTitle > img.img-g {
     width: 30%;
     height: 1vw;
     padding-right: 4%; }
+    @media (max-width: 425px) {
+      #menu_chic li.secondTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_chic li.thirdTitle > img.img-d {
     width: 30%;
     height: 1vw;
     padding-right: 9px;
     transform: rotate(0.5turn); }
+    @media (max-width: 425px) {
+      #menu_chic li.thirdTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_chic li.thirdTitle > img.img-g {
     width: 30%;
     height: 1vw;
     padding-right: 9px; }
+    @media (max-width: 425px) {
+      #menu_chic li.thirdTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_chic .titlesection {
     justify-content: center; }
   #menu_chic ul.title.section > li {
@@ -502,25 +556,43 @@ div#main > a {
     height: 18px;
     padding-right: 3%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_delice li.firstTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_delice li.firstTitle > img.img-g {
     width: 30%;
     height: 18px;
     padding-right: 3%; }
+    @media (max-width: 425px) {
+      #menu_delice li.firstTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_delice li.secondTitle > img.img-d {
     width: 30%;
     height: 18px;
     padding-right: 4%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_delice li.secondTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_delice li.secondTitle > img.img-g {
     width: 30%;
     height: 18px;
     padding-right: 4%; }
+    @media (max-width: 425px) {
+      #menu_delice li.secondTitle > img.img-g {
+        height: 1.7vh; } }
   #menu_delice li.thirdTitle > img.img-d {
     width: 30%;
     height: 18px;
     padding-right: 5%;
     transform: scaleX(-1); }
+    @media (max-width: 425px) {
+      #menu_delice li.thirdTitle > img.img-d {
+        height: 1.7vh; } }
   #menu_delice li.thirdTitle > img.img-g {
     width: 30%;
     height: 18px;
     padding-right: 5%; }
+    @media (max-width: 425px) {
+      #menu_delice li.thirdTitle > img.img-g {
+        height: 1.7vh; } }
