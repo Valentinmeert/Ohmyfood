@@ -546,7 +546,7 @@ div#main > a {
     text-align: center; }
     @media (max-width: 768px) {
       #menu_delice ul.title.section > li {
-        font-size: 4vw; } }
+        font-size: 5vw; } }
   #menu_delice .first {
     margin-bottom: 2.5vw; }
   #menu_delice .second {
