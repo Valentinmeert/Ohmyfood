@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "project 3",
   "scripts": {
-    "sass": "node-sass -w Ohmyfood/src/sass/main.scss css/styledest.css"
+    "sass": "node-sass -w src/sass/main.scss css/styledest.css"
   },
   "repository": {
     "type": "git",
