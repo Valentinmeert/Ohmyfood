@@ -7,7 +7,16 @@
     background-color: #FFF5FE;
     box-shadow: 0 0 17px -10px #735F5D;
     @include tab {
-      font-size: 1.7vw;
+      font-size: 2.1vw;
+      height: 81vw;
+    }
+    @include lg {
+      font-size: 3vw;
+      height: 130vw;
+    }
+    @include sm {
+      font-size: 3.7vw;
+      height: 172vw;
     }
     li  {
       @include setting_li;
@@ -16,7 +25,13 @@
     }
 
     h2{
-      font-size: 19px;
+      font-size:19px;
+      @include tab {
+        font-size: 3.5vw;
+      }
+      @include lg {
+        font-size: 4.5vw;
+      }
     }
     .firstTitle ,  .secondTitle , .thirdTitle
   {
@@ -57,22 +72,26 @@
   li.secondTitle>img.img-d
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
+    padding-right: 22px;
     transform: rotate(0.5turn);
   }
   li.secondTitle>img.img-g
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
+    padding-right: 25px;
   }
   
   li.thirdTitle>img.img-d
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
     transform: rotate(0.5turn);
+    padding-right: 11px;
   }
   
   li.thirdTitle>img.img-g
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
+    padding-right: 10px;
   }
   
   .titlesection{
@@ -87,7 +106,7 @@
     font-weight: bold;
     @include gradient (#e38a12 , #a67afd);
     @include tab {
-      font-size:4vw;
+      font-size:7vw;
     }
   }
   

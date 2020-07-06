@@ -7,11 +7,20 @@
     font-size: 14px;
     background-color: #FCDFDB;
     box-shadow: 0 0 17px -10px #735F5D;
+    
+    @include md {
+      height: 176vw;
+    }
+    @include sm {
+      height: 180vw;
+    }
     @include tab {
       font-size: 2.4vw;
+      height: 105vw;
     }
     @include lg {
       font-size: 3.4vw;
+      height: 168vw;
     }
 
     li  {

@@ -29,8 +29,17 @@
     width : $size;
     height: 1.8vh;
     padding-right: $margin;
+    @include tab {
+        width:26%;
+        height: 4vh;
+    }
     @include lg {
-        height: 1vh;
+        height: 2vh;
+        width: 75px;
+    }
+    @include sm {
+        width:19%;
+        height: 2.5vh;
     }
 }
 
@@ -55,6 +64,12 @@
     flex-direction: row;
     list-style-type: none;
     justify-content: center;
+}
+
+@mixin lap {
+    @media (max-width: $screen-laptop-max) {
+        @content;
+    }
 }
 
 @mixin tab {
