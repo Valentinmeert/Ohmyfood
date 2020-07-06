@@ -472,6 +472,10 @@ div#main > a {
     #menu_chic {
       font-size: 3vw;
       height: 130vw; } }
+  @media (max-width: 375px) {
+    #menu_chic {
+      font-size: 3.4vw;
+      height: 150vw; } }
   @media (max-width: 320px) {
     #menu_chic {
       font-size: 3.7vw;
@@ -522,6 +526,10 @@ div#main > a {
       #menu_chic li.firstTitle > img.img-d {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.firstTitle > img.img-d {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.firstTitle > img.img-d {
         width: 19%;
@@ -538,6 +546,10 @@ div#main > a {
       #menu_chic li.firstTitle > img.img-g {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.firstTitle > img.img-g {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.firstTitle > img.img-g {
         width: 19%;
@@ -556,6 +568,10 @@ div#main > a {
       #menu_chic li.secondTitle > img.img-d {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.secondTitle > img.img-d {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.secondTitle > img.img-d {
         width: 19%;
@@ -573,6 +589,10 @@ div#main > a {
       #menu_chic li.secondTitle > img.img-g {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.secondTitle > img.img-g {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.secondTitle > img.img-g {
         width: 19%;
@@ -591,6 +611,10 @@ div#main > a {
       #menu_chic li.thirdTitle > img.img-d {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.thirdTitle > img.img-d {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.thirdTitle > img.img-d {
         width: 19%;
@@ -608,6 +632,10 @@ div#main > a {
       #menu_chic li.thirdTitle > img.img-g {
         height: 2vh;
         width: 75px; } }
+    @media (max-width: 375px) {
+      #menu_chic li.thirdTitle > img.img-g {
+        height: 2.3vh;
+        width: 19%; } }
     @media (max-width: 320px) {
       #menu_chic li.thirdTitle > img.img-g {
         width: 19%;

@@ -37,6 +37,10 @@
         height: 2vh;
         width: 75px;
     }
+    @include md {
+        height: 2.3vh;
+        width: 19%;
+    }
     @include sm {
         width:19%;
         height: 2.5vh;
