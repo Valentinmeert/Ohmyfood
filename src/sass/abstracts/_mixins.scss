@@ -51,8 +51,21 @@
     width : $size;
     height: 1.8vh;
     padding-right: $padding;
+    @include tab {
+        width:26%;
+        height: 4vh;
+    }
     @include lg {
-        height: 1vh;
+        height: 3vh;
+        width: 63px;
+    }
+    @include md {
+        height: 2.3vh;
+        width: 19%;
+    }
+    @include sm {
+        width:19%;
+        height: 2.5vh;
     }
 }
 

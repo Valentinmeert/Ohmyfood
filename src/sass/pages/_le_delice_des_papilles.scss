@@ -8,6 +8,19 @@
     box-shadow: 0 0 17px -10px #735F5D;
     @include tab {
       font-size: 1.7vw;
+      height: 81vw;
+    }
+    @include lg {
+      font-size: 3vw;
+      height: 130vw;
+    }
+    @include md {
+      font-size: 3.4vw;
+      height: 150vw;
+    }
+    @include sm {
+      font-size: 3.7vw;
+      height: 172vw;
     }
     li{
         @include setting_li;
@@ -27,6 +40,12 @@
       
       h2{
         font-size: 19px;
+        @include tab {
+          font-size: 3.5vw;
+        }
+        @include lg {
+          font-size: 4.1vw;
+        }
       }
 
     ul.title.section>li{
