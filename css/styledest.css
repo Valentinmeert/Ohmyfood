@@ -5,7 +5,17 @@
   height: 100vw; }
   @media (max-width: 768px) {
     .typography, #main, #menu_note, #menu_gout, #menu_chic, #menu_delice {
-      width: 80%; } }
+      width: 80%;
+      height: 105vw; } }
+  @media (max-width: 425px) {
+    .typography, #main, #menu_note, #menu_gout, #menu_chic, #menu_delice {
+      height: 168vw; } }
+  @media (max-width: 375px) {
+    .typography, #main, #menu_note, #menu_gout, #menu_chic, #menu_delice {
+      height: 176vw; } }
+  @media (max-width: 320px) {
+    .typography, #main, #menu_note, #menu_gout, #menu_chic, #menu_delice {
+      height: 180vw; } }
 
 @keyframes wiggle {
   0% {
@@ -121,7 +131,7 @@ body {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   overflow-x: hidden; }
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     body {
       margin-bottom: -56px;
       height: auto; } }
@@ -260,6 +270,9 @@ div#main > a {
   @media (max-width: 768px) {
     #menu_note {
       font-size: 2.4vw; } }
+  @media (max-width: 425px) {
+    #menu_note {
+      font-size: 3.4vw; } }
   #menu_note li {
     text-align: left;
     display: flex;
@@ -270,7 +283,7 @@ div#main > a {
     margin-bottom: 6px; }
     @media (max-width: 425px) {
       #menu_note li {
-        margin-bottom: 3px; } }
+        margin-bottom: 9px; } }
   #menu_note .title > li {
     font-family: 'Devonshire', cursive;
     font-size: 55px;

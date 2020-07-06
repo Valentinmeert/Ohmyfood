@@ -5,6 +5,16 @@
   height: 100vw;
   @include tab {
     width: 80%;
+    height: 105vw;
+  }
+  @include lg {
+    height: 168vw;
+  }
+  @include md {
+    height: 176vw;
+  }
+  @include sm {
+    height: 180vw;
   }
 
 }

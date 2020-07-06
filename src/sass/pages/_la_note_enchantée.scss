@@ -10,13 +10,16 @@
     @include tab {
       font-size: 2.4vw;
     }
+    @include lg {
+      font-size: 3.4vw;
+    }
 
     li  {
       @include setting_li;
       padding: 0 7%;
       margin-bottom: 6px ;
       @include lg {
-        margin-bottom: 3px;
+        margin-bottom: 9px;
       }
     }
     

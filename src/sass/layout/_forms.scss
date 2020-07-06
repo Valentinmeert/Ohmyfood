@@ -33,7 +33,7 @@ body {
     padding-bottom: 5em;
     -moz-box-sizing: border-box; box-sizing: border-box;
     overflow-x: hidden;
-    @include lg {
+    @include tab {
       margin-bottom: -56px;
       height: auto;
     }
