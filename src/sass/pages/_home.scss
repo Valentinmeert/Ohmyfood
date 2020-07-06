@@ -14,7 +14,7 @@
     padding: 0;
   }
   img {
-    padding-top: 86px;
+    padding-top: 100px;
     width: 30px;
     height: 30px;
   }
@@ -22,16 +22,14 @@
     @include lg {
     margin:10px;
     }
-
     height: 310px;
     width: 220px;
     margin: 20px;
     box-shadow: 0 0 17px -10px #735F5D;
-    transition: transform 400ms;
+    /* transition: transform 400ms; */
     opacity:1;
         &:hover {
-          transform: scale(1.15);
-          opacity:0.3;
+          @include zoom;
         }
   }
   .first {

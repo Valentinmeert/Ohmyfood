@@ -39,21 +39,20 @@ h6 > span:nth-child(3) {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s; }
 
-i {
+h2 {
   font-style: normal;
   margin: 0;
   padding: 0; }
 
-i::after {
+h2::after {
   content: "";
   display: block;
   height: 2px;
   width: 0%;
-  /*   margin-bottom: 9px; */
   background-color: #000;
   transition: width 0.4s; }
 
-i:hover:after {
+h2:hover:after {
   width: 100%; }
 
 footer > a {
@@ -153,7 +152,7 @@ div#main > a {
     #main {
       padding: 0; } }
   #main img {
-    padding-top: 86px;
+    padding-top: 100px;
     width: 30px;
     height: 30px; }
   #main .Card {
@@ -161,14 +160,25 @@ div#main > a {
     width: 220px;
     margin: 20px;
     box-shadow: 0 0 17px -10px #735F5D;
-    transition: transform 400ms;
+    /* transition: transform 400ms; */
     opacity: 1; }
     @media (max-width: 425px) {
       #main .Card {
         margin: 10px; } }
     #main .Card:hover {
-      transform: scale(1.15);
       opacity: 0.3; }
+      #main .Card:hover li.firstTitle, #main .Card:hover li.thirdTitle, #main .Card:hover li.fourthTitle {
+        font-size: 150%;
+        /* padding-top:70px; */
+        margin-bottom: 0; }
+      #main .Card:hover li.secondTitle {
+        font-size: 23px; }
+      #main .Card:hover li.subtitle {
+        font-size: 40px; }
+      #main .Card:hover img.music {
+        width: 60px;
+        height: 60px;
+        padding-top: 60px; }
   #main .first {
     background-color: #FBDCDB;
     font-family: 'Devonshire', cursive; }
@@ -323,10 +333,11 @@ div#main > a {
   #menu_note p {
     margin: 4px 0 0 0;
     padding: 0px; }
-  #menu_note i {
+  #menu_note h2 {
     font-style: normal;
     margin: 0;
-    padding: 0; }
+    padding: 0;
+    font-size: 21px; }
   #menu_note .first {
     margin-bottom: 2.5vw; }
   #menu_note .second {
