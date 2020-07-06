@@ -15,6 +15,9 @@
       margin-bottom: 10px;
     }
 
+    h2{
+      font-size: 19px;
+    }
     .firstTitle ,  .secondTitle , .thirdTitle
   {
     font-size: 15px;
@@ -26,53 +29,53 @@
     }
   }
   
-   .first {
+  .first {
     margin-bottom: 2.5vw;
     color:#c67412;
   }
   
-   .second{
+  .second{
     margin-bottom: 2.5vw;
     color:#a56799;
   }
   
-   .third{
+  .third{
     margin-bottom: 2.5vw;
     color: #6e4ccc;
   }
   
-   li.firstTitle>img.img-d
+  li.firstTitle>img.img-d
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
     transform: rotate(0.5turn);
   }
-   li.firstTitle>img.img-g
+  li.firstTitle>img.img-g
   {
     @include size_decoration_chic ($first-margin_chic , $size-mark_chic);
   }
   
-   li.secondTitle>img.img-d
+  li.secondTitle>img.img-d
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
     transform: rotate(0.5turn);
   }
-   li.secondTitle>img.img-g
+  li.secondTitle>img.img-g
   {
     @include size_decoration_chic ($second-padding_chic , $size-mark_chic);
   }
   
-   li.thirdTitle>img.img-d
+  li.thirdTitle>img.img-d
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
     transform: rotate(0.5turn);
   }
   
-   li.thirdTitle>img.img-g
+  li.thirdTitle>img.img-g
   {
     @include size_decoration_chic ($third-padding_chic , $size-mark_chic);
   }
   
-   .titlesection{
+  .titlesection{
 
     justify-content: center;
   }

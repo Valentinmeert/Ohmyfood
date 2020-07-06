@@ -42,7 +42,8 @@ h6 > span:nth-child(3) {
 h2 {
   font-style: normal;
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-size: 21px; }
 
 h2::after {
   content: "";
@@ -95,6 +96,13 @@ h1 {
   @media (max-width: 425px) {
     h1 {
       font-size: 8vw; } }
+
+h2 {
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-weight: 500; }
 
 body {
   background-color: #F9F9F9;
@@ -181,7 +189,8 @@ div#main > a {
         padding-top: 60px; }
   #main .first {
     background-color: #FBDCDB;
-    font-family: 'Devonshire', cursive; }
+    font-family: 'Devonshire', cursive;
+    color: black; }
   #main .second {
     background-color: #FBF3FB;
     font-family: 'Playfair Display', serif; }
@@ -333,11 +342,6 @@ div#main > a {
   #menu_note p {
     margin: 4px 0 0 0;
     padding: 0px; }
-  #menu_note h2 {
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    font-size: 21px; }
   #menu_note .first {
     margin-bottom: 2.5vw; }
   #menu_note .second {
@@ -452,6 +456,8 @@ div#main > a {
     justify-content: center;
     padding: 0 13%;
     margin-bottom: 10px; }
+  #menu_chic h2 {
+    font-size: 19px; }
   #menu_chic .firstTitle, #menu_chic .secondTitle, #menu_chic .thirdTitle {
     font-size: 15px;
     font-weight: bold;
@@ -555,6 +561,8 @@ div#main > a {
     @media (max-width: 768px) {
       #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
         font-size: 1.8vw; } }
+  #menu_delice h2 {
+    font-size: 19px; }
   #menu_delice ul.title.section > li {
     font-size: 52px;
     font-family: 'Dancing Script', serif;
