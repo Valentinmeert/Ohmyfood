@@ -14,7 +14,9 @@ h2{
   margin: 0;
   padding: 0;
   font-size: 21px;
-  font-weight: 500;
+  @include tab {
+    font-size: 3vw;
+  }
 }
 
 body {

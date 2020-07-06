@@ -8,15 +8,20 @@
     background-color: #FCDFDB;
     box-shadow: 0 0 17px -10px #735F5D;
     @include tab {
-      font-size: 1.7vw;
+      font-size: 2.4vw;
     }
 
     li  {
       @include setting_li;
       padding: 0 7%;
       margin-bottom: 6px ;
+      @include lg {
+        margin-bottom: 3px;
+      }
     }
     
+
+
     .title>li {
       font-family: 'Devonshire', cursive;
       font-size: 55px;
@@ -80,6 +85,9 @@
         margin-bottom: 12px;
         @include tab {
           font-size:2.5vw;
+        }
+        @include lg {
+          margin-bottom: 0;
         }
     }
     
