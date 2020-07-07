@@ -230,6 +230,7 @@ div#main > a {
   #main .secondTitle {
     background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 8px;
     font-size: 20px;
@@ -237,6 +238,7 @@ div#main > a {
   #main .thirdTitle {
     background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 8px;
     font-size: 20px;
@@ -244,6 +246,7 @@ div#main > a {
   #main .fourthTitle {
     background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 8px;
     font-size: 20px;
@@ -403,6 +406,7 @@ div#main > a {
     font-family: 'Kaushan Script', cursive;
     font-weight: normal;
     background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#BEFF7F));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 6% 0;
@@ -753,6 +757,7 @@ div#main > a {
     font-weight: bold;
     background: -webkit-gradient(linear, left top, right bottom, from(#e38a12), to(#a67afd));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent; }
     @media (max-width: 768px) {
       #menu_chic ul.title.Section > li {
@@ -810,6 +815,7 @@ div#main > a {
     font-family: 'Dancing Script', serif;
     font-weight: bold;
     background: -webkit-gradient(linear, left top, right bottom, from(#102FBD), to(#178FFB));
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 6% 0;
