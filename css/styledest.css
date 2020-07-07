@@ -391,14 +391,6 @@ div#main > a {
     #menu_gout {
       font-size: 3.7vw;
       height: 172vw; } }
-  #menu_gout li {
-    text-align: left;
-    display: flex;
-    flex-direction: row;
-    list-style-type: none;
-    justify-content: center;
-    padding: 0 8%;
-    margin-bottom: 10px; }
   #menu_gout .firstTitle, #menu_gout .secondTitle, #menu_gout .thirdTitle {
     font-size: 17px;
     padding: 0 7px;
@@ -406,7 +398,7 @@ div#main > a {
     @media (max-width: 768px) {
       #menu_gout .firstTitle, #menu_gout .secondTitle, #menu_gout .thirdTitle {
         font-size: 2.2vw; } }
-  #menu_gout ul.title.section > li {
+  #menu_gout ul.title.Section > li {
     font-size: 46px;
     font-family: 'Kaushan Script', cursive;
     font-weight: normal;
@@ -416,8 +408,16 @@ div#main > a {
     padding: 6% 0;
     text-align: center; }
     @media (max-width: 768px) {
-      #menu_gout ul.title.section > li {
+      #menu_gout ul.title.Section > li {
         font-size: 5vw; } }
+  #menu_gout li {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0 8%;
+    margin-bottom: 10px; }
   #menu_gout .first {
     margin-bottom: 2.5vw; }
   #menu_gout .second {
@@ -745,7 +745,7 @@ div#main > a {
         height: 2.5vh; } }
   #menu_chic .titlesection {
     justify-content: center; }
-  #menu_chic ul.title.section > li {
+  #menu_chic ul.title.Section > li {
     text-align: center;
     padding: 6% 0;
     font-size: 31px;
@@ -755,7 +755,7 @@ div#main > a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
     @media (max-width: 768px) {
-      #menu_chic ul.title.section > li {
+      #menu_chic ul.title.Section > li {
         font-size: 7vw; } }
 
 #menu_delice {
@@ -805,7 +805,7 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_delice h2 {
         font-size: 4.1vw; } }
-  #menu_delice ul.title.section > li {
+  #menu_delice ul.title.Section > li {
     font-size: 52px;
     font-family: 'Dancing Script', serif;
     font-weight: bold;
@@ -815,7 +815,7 @@ div#main > a {
     padding: 6% 0;
     text-align: center; }
     @media (max-width: 768px) {
-      #menu_delice ul.title.section > li {
+      #menu_delice ul.title.Section > li {
         font-size: 5vw; } }
   #menu_delice .first {
     margin-bottom: 2.5vw; }
