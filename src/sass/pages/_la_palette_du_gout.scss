@@ -1,77 +1,101 @@
- #menu_gout{
-    @extend .typography;
-    flex-direction: column;
-    text-align: center;
-    font-size: 13px;
-    background-color: #FFF5FE;
-    font-family: 'Kalam', cursive;
-    box-shadow: 0 0 17px -10px #735F5D;
-    @include tab {
-      font-size: 1.7vw;
+#menu_gout{
+  @extend .typography;
+  flex-direction: column;
+  text-align: center;
+  font-size: 13px;
+  background-color: #FFF5FE;
+  font-family: 'Kalam', cursive;
+  box-shadow: 0 0 17px -10px #735F5D;
+  @include tab {
+    font-size: 1.7vw;
+    height: 86vw;
     }
-     li{
-        @include setting_li;
-        padding: 0 8%;
-        margin-bottom: 10px ;
+    @include lg {
+      font-size: 3vw;
+      height: 145vw;
+    }
+    @include md {
+      font-size: 3.4vw;
+      height: 150vw;
+    }
+    @include sm {
+      font-size: 3.7vw;
+      height: 172vw;
+    }
+    li{
+      @include setting_li;
+      padding: 0 8%;
+      margin-bottom: 10px ;
+    }
+    .firstTitle , .secondTitle , .thirdTitle
+    {
+      font-size: 17px;
+      padding:0 7px;
+      font-family: 'Kalam', cursive;
+      @include tab {
+        font-size:2.2vw;
       }
-     .firstTitle , .secondTitle , .thirdTitle
-      {
-        font-size: 17px;
-        padding:0 7px;
-        font-family: 'Kalam', cursive;
-        @include tab {
-          font-size:2.2vw;
-        }
+    }
+    ul.title.section>li{
+    font-size: 46px;
+    font-family: 'Kaushan Script', cursive;
+    font-weight:normal;
+    @include gradient (#3d923a , #BEFF7F);
+      padding: 6% 0;
+      text-align: center;
+      @include tab {
+        font-size:5vw;
       }
-     ul.title.section>li{
-      font-size: 46px;
-      font-family: 'Kaushan Script', cursive;
-      font-weight:normal;
-      @include gradient (#3d923a , #BEFF7F);
-        padding: 6% 0;
-        text-align: center;
-        @include tab {
-          font-size:5vw;
-        }
+    }
+    .first {
+      margin-bottom: 2.5vw;
+    }
+    .second{
+      margin-bottom: 2.5vw;
+    }
+    .third{
+      margin-bottom: 2.5vw;
+    }
+    li.firstTitle>img.img-d
+    {
+      @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
+      @include tab {
+        padding-left: 12%;
       }
-     .first {
-        margin-bottom: 2.5vw;
+    }
+    li.firstTitle>img.img-g
+    {
+      @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
+      transform: scaleX(-1);
+      @include tab {
+        padding-left: 12%;
       }
-     .second{
-        margin-bottom: 2.5vw;
+    }
+    li.secondTitle>img.img-d
+    {
+      @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
+      @include tab {
+        padding-left: 4%;
       }
-     .third{
-        margin-bottom: 2.5vw;
-      }
-     li.firstTitle>img.img-d
-      {
-        @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
-      
-      }
-     li.firstTitle>img.img-g
-      {
-        @include size_decoration_gout ($first-padding_gout , $size-mark_gout);
-        transform: scaleX(-1);
-      }
-     li.secondTitle>img.img-d
-      {
-        @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
-      }
+    }
 
-     li.secondTitle>img.img-g
-      {
-        @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
-        transform: scaleX(-1);
+    li.secondTitle>img.img-g
+    {
+      @include size_decoration_gout ($second-padding_gout , $size-mark_gout);
+      transform: scaleX(-1);
+      @include tab {
+        padding-left: 4%;
       }
-      
-     li.thirdTitle>img.img-d
-      {
-        @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
-      }
-      
-     li.thirdTitle>img.img-g
-      {
-        @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
-        transform: scaleX(-1);
-      }
-  }
+    }
+    
+    li.thirdTitle>img.img-d
+    {
+      @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
+    }
+    
+    li.thirdTitle>img.img-g
+    {
+      @include size_decoration_gout ($third-padding_gout , $size-mark_gout);
+      transform: scaleX(-1);
+    }
+}
