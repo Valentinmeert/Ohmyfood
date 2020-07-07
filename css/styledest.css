@@ -362,11 +362,11 @@ div#main > a {
     margin: 4px 0 0 0;
     padding: 0px; }
   #menu_note .first {
-    margin-bottom: 2.5vw; }
+    margin-bottom: 1.5vw; }
   #menu_note .second {
-    margin-bottom: 2.5vw; }
+    margin-bottom: 1.5vw; }
   #menu_note .third {
-    margin-bottom: 2.5vw; }
+    margin-bottom: 1.5vw; }
 
 #menu_gout {
   flex-direction: column;
