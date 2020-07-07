@@ -27,15 +27,15 @@
   100% {
     opacity: 0; } }
 
-h6 > span {
+h2 > span {
   -webkit-animation: blink 2.5s infinite;
   animation: blink 2.5s infinite; }
 
-h6 > span:nth-child(2) {
+h2 > span:nth-child(2) {
   -webkit-animation-delay: 0.6s;
   animation-delay: 0.6s; }
 
-h6 > span:nth-child(3) {
+h2 > span:nth-child(3) {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s; }
 
@@ -205,7 +205,7 @@ div#main > a {
   #main .firstTitle {
     margin-bottom: 8px;
     font-size: 20px; }
-  #main h6 {
+  #main h2 {
     background-color: #559c84;
     align-self: flex-end;
     margin: 11px auto;
