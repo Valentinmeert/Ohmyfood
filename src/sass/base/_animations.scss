@@ -29,48 +29,20 @@ h2>span:nth-child(3) {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s; }
 
-h2{
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  font-size: 21px;
-}
-
-h2::after{
-  content: "";
-  display: block;
-  height: 2px;
-  width: 0%;
-
-  background-color: #000;
-  transition: width 0.4s;
-}
-
-h2:hover:after {
-  width: 100%;
-}
+  .Section h2::after{
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0%;
+    background-color: #000;
+    transition: width 0.4s;
+  }
+  
+  .Section h2:hover:after {
+    width: 100%;
+  }
 
 footer>a{
   -webkit-animation: wiggle 3s infinite;
   animation: wiggle 3s infinite;
 }
-
-@mixin zoom {
-  li.firstTitle , li.thirdTitle , li.fourthTitle{
-    font-size: 150%;
-    /* padding-top:70px; */
-    margin-bottom: 0;
-  }
-  li.secondTitle{
-    font-size: 23px;
-  }
-  li.subtitle{
-    font-size: 40px
-  } 
-  img.music{
-    width: 60px;
-    height: 60px;
-    padding-top: 60px;
-  }
-  opacity:0.3;
-  }

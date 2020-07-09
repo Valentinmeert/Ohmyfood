@@ -39,13 +39,7 @@ h2 > span:nth-child(3) {
   -webkit-animation-delay: 1.2s;
   animation-delay: 1.2s; }
 
-h2 {
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  font-size: 21px; }
-
-h2::after {
+.Section h2::after {
   content: "";
   display: block;
   height: 2px;
@@ -53,7 +47,7 @@ h2::after {
   background-color: #000;
   transition: width 0.4s; }
 
-h2:hover:after {
+.Section h2:hover:after {
   width: 100%; }
 
 footer > a {
@@ -96,15 +90,6 @@ h1 {
   @media (max-width: 425px) {
     h1 {
       font-size: 8vw; } }
-
-h2 {
-  font-style: normal;
-  margin: 0;
-  padding: 0;
-  font-size: 21px; }
-  @media (max-width: 768px) {
-    h2 {
-      font-size: 3.5vw; } }
 
 body {
   background-color: #F9F9F9;
@@ -167,30 +152,26 @@ div#main > a {
     padding-top: 100px;
     width: 30px;
     height: 30px; }
-  #main .Card {
+    @media screen and (min-width: 426px) and (max-width: 600px) {
+      #main img {
+        padding-top: 59px; } }
+  #main .Menu {
     height: 310px;
     width: 220px;
     margin: 20px;
     box-shadow: 0 0 17px -10px #735F5D;
-    /* transition: transform 400ms; */
     opacity: 1; }
     @media (max-width: 425px) {
-      #main .Card {
+      #main .Menu {
         margin: 10px; } }
-    #main .Card:hover {
-      opacity: 0.3; }
-      #main .Card:hover li.firstTitle, #main .Card:hover li.thirdTitle, #main .Card:hover li.fourthTitle {
-        font-size: 150%;
-        /* padding-top:70px; */
-        margin-bottom: 0; }
-      #main .Card:hover li.secondTitle {
-        font-size: 23px; }
-      #main .Card:hover li.subtitle {
-        font-size: 40px; }
-      #main .Card:hover img.music {
-        width: 60px;
-        height: 60px;
-        padding-top: 60px; }
+    @media screen and (min-width: 426px) and (max-width: 600px) {
+      #main .Menu {
+        height: 220px;
+        width: 160px; } }
+  #main .Card:hover {
+    opacity: 0.3;
+    transition: transform 400ms;
+    transform: scale(1.3); }
   #main .first {
     background-color: #FBDCDB;
     font-family: 'Devonshire', cursive;
@@ -218,15 +199,15 @@ div#main > a {
     font-weight: normal; }
   #main .subtitle {
     font-size: 26px; }
-  #main ul.first.Card > li.subtitle {
+  #main a.first.Menu > ul.Card > li.subtitle {
     font-family: 'Kalam', cursive; }
-  #main ul.second.Card > li.subtitle {
+  #main a.second.Menu > ul.Card > li.subtitle {
     color: #e38a12;
     font-weight: bold; }
-  #main ul.third.Card > li.subtitle {
+  #main a.third.Menu > ul.Card > li.subtitle {
     color: #102fdb;
     font-family: 'Kalam', cursive; }
-  #main ul.fourth.Card > li.subtitle {
+  #main a.fourth.Menu > ul.Card > li.subtitle {
     color: #3d923a;
     font-family: 'Kalam', cursive; }
   #main .secondTitle {
@@ -234,8 +215,11 @@ div#main > a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin-bottom: 8px;
-    font-size: 20px;
+    font-size: 18px;
     padding-top: 137px; }
+    @media screen and (min-width: 426px) and (max-width: 600px) {
+      #main .secondTitle {
+        padding-top: 71px; } }
   #main .thirdTitle {
     background: -webkit-gradient(linear, left top, right bottom, from(#102fdb), to(#178ffb));
     -webkit-background-clip: text;
@@ -243,6 +227,10 @@ div#main > a {
     margin-bottom: 8px;
     font-size: 20px;
     padding-top: 137px; }
+    @media screen and (min-width: 426px) and (max-width: 600px) {
+      #main .thirdTitle {
+        padding-top: 71px;
+        font-size: 17px; } }
   #main .fourthTitle {
     background: -webkit-gradient(linear, left top, right bottom, from(#3d923a), to(#beff7f));
     -webkit-background-clip: text;
@@ -250,6 +238,10 @@ div#main > a {
     margin-bottom: 8px;
     font-size: 20px;
     padding-top: 137px; }
+    @media screen and (min-width: 426px) and (max-width: 600px) {
+      #main .fourthTitle {
+        padding-top: 71px;
+        font-size: 17px; } }
 
 #menu_note {
   flex-direction: column;
@@ -284,6 +276,14 @@ div#main > a {
     @media (max-width: 425px) {
       #menu_note li {
         margin-bottom: 9px; } }
+  #menu_note h2 {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 21px; }
+    @media (max-width: 768px) {
+      #menu_note h2 {
+        font-size: 3.5vw; } }
   #menu_note .title > li {
     font-family: 'Devonshire', cursive;
     font-size: 55px;
@@ -393,6 +393,14 @@ div#main > a {
     #menu_gout {
       font-size: 3.7vw;
       height: 172vw; } }
+  #menu_gout h2 {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 21px; }
+    @media (max-width: 768px) {
+      #menu_gout h2 {
+        font-size: 3.5vw; } }
   #menu_gout .firstTitle, #menu_gout .secondTitle, #menu_gout .thirdTitle {
     font-size: 17px;
     padding: 0 7px;
@@ -594,6 +602,9 @@ div#main > a {
     padding: 0 13%;
     margin-bottom: 10px; }
   #menu_chic h2 {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
     font-size: 19px; }
     @media (max-width: 768px) {
       #menu_chic h2 {
@@ -800,6 +811,9 @@ div#main > a {
       #menu_delice .firstTitle, #menu_delice .secondTitle, #menu_delice .thirdTitle {
         font-size: 1.8vw; } }
   #menu_delice h2 {
+    font-style: normal;
+    margin: 0;
+    padding: 0;
     font-size: 19px; }
     @media (max-width: 768px) {
       #menu_delice h2 {
