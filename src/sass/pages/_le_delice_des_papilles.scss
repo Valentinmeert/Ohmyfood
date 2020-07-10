@@ -7,8 +7,12 @@
     font-family: 'Kalam', cursive;
     box-shadow: 0 0 17px -10px #735F5D;
     @include tab {
-      font-size: 1.7vw;
+      font-size: 2vw;
       height: 81vw;
+    }
+    @include Iphone {
+      height: 100vw;
+      font-size: 2.5vw;
     }
     @include lg {
       font-size: 3vw;
@@ -44,6 +48,9 @@
         font-size: 19px;
         @include tab {
           font-size: 3.5vw;
+        }
+        @include Iphone {
+          font-size: 3.3vw;
         }
         @include lg {
           font-size: 4.1vw;

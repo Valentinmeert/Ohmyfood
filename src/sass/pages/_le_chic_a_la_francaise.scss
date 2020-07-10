@@ -8,7 +8,7 @@
     box-shadow: 0 0 17px -10px #735F5D;
     @include tab {
       font-size: 2.1vw;
-      height: 81vw;
+      height: 115vw;
     }
     @include lg {
       font-size: 3vw;
@@ -16,11 +16,15 @@
     }
     @include md {
       font-size: 3.4vw;
-      height: 150vw;
+      height: 156vw;
     }
     @include sm {
       font-size: 3.7vw;
       height: 172vw;
+    }
+
+    @include Iphone {
+      font-size:2.4vw;
     }
     li  {
       @include setting_li;
@@ -34,7 +38,7 @@
       padding: 0;
       font-size:19px;
       @include tab {
-        font-size: 3.5vw;
+        font-size: 3.4vw;
       }
       @include lg {
         font-size: 4.5vw;
